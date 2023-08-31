@@ -132,7 +132,7 @@ enum Country: String, CaseIterable, Identifiable {
     case Vietnam = "🇻🇳 Vietnã"
     case Zambia = "🇿🇲 Zâmbia"
 }
-//MARK: -
+//MARK: - AGE
 
 enum Age:Int,CaseIterable{
     case under30 = 0
@@ -258,7 +258,7 @@ extension Cancer:CustomStringConvertible, Identifiable{
 }
 //MARK: - INCOME
 enum Income:Int, CaseIterable{
-    case yes = -2
+    case yes = 2
     case no = 0
 }
 extension Income:CustomStringConvertible, Identifiable{
@@ -412,8 +412,8 @@ extension Sleeper:CustomStringConvertible, Identifiable{
 enum Personality:Int, CaseIterable{
     case calm = 3
     case intense = -3
-    case happy = 1
-    case unhappy = -1
+    case outgoing = 1
+    case introvert = -1
 }
 extension Personality:CustomStringConvertible, Identifiable{
     var id: Self{self}
@@ -424,10 +424,10 @@ extension Personality:CustomStringConvertible, Identifiable{
             return "Tranquilo."
         case .intense:
             return "Intenso."
-        case .happy:
-            return "Alegre."
-        case .unhappy:
-            return "Depressivo."
+        case .outgoing:
+            return "Extrovertido."
+        case .introvert:
+            return "Introvertido."
         }
     }
 }
@@ -479,7 +479,7 @@ extension Smoker:CustomStringConvertible, Identifiable{
         switch self{
 
         case .overtwo:
-            return "Sim, acima de maços por dia."
+            return "Sim, acima dois de maços por dia."
         case .two:
             return "Sim, entre um e dois maços por dia."
         case .one:
@@ -529,4 +529,12 @@ extension Checkups:CustomStringConvertible, Identifiable{
         }
     }
 }
-
+//MARK: - SCREEN
+enum Screen:Hashable{
+    case loading
+    case intro
+    case name
+    case content(User)
+    case report(User)
+    case question(User,Question)
+}

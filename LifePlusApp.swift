@@ -9,28 +9,32 @@ import SwiftUI
 
 @main
 struct LifePlusApp: App {
-  @StateObject var navigationModel = NavigationModel()
+  
   @StateObject var contentViewModel = ContentViewModel()
     var body: some Scene {
         WindowGroup {
-            NavigationStack(path: $navigationModel.path) {
-                IntroView()
-                    .environmentObject(navigationModel)
+            NavigationStack(path: $contentViewModel.path) {
+                Loading()
                     .environmentObject(contentViewModel)
                     .navigationDestination(for: Screen.self){
+                        
                         screen in switch screen{
-                            
+                        case .loading:
+                            Loading()
                         case .intro:
                             IntroView()
-                                .environmentObject(navigationModel)
-                               
-                        case .question(let life):
-                            ContentView(lifePlus: life)
-                                .environmentObject(navigationModel)
                                 .environmentObject(contentViewModel)
-                        case .report:
-                            ReportView()
-                                .environmentObject(navigationModel)
+                        case .content(let user):
+                            ContentView(user: user)
+                                .environmentObject(contentViewModel)
+                        case .report(let user):
+                            ReportView(user: user)
+                                .environmentObject(contentViewModel)
+                        case .question(let user, let question):
+                            QuestionView(user:user,question:question)
+                                .environmentObject(contentViewModel)
+                        case .name:
+                            NameView()
                                 .environmentObject(contentViewModel)
                         }
                     }

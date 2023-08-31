@@ -7,82 +7,74 @@
 
 import SwiftUI
 
-struct LifePlusViewModel{
-    var lifeExpectancy = LifeExpectancy(questions: DummyData.questions, naturality: "🇧🇷 Brasil")
+struct IntroViewModel{
+    var user = DummyData.user
+    var logoRotation = 0.0
+    var logoscale = 1.0
 }
 
 
 struct IntroView: View {
-    @State var lifePlusViewModel = LifePlusViewModel()
+    @State var introViewModel = IntroViewModel()
+    @EnvironmentObject private var contentViewModel : ContentViewModel
     var body: some View {
-        VStack {
-            HStack {
-                Text("LIFE PLUS")
-                    .foregroundColor(.white)
-                    .font(.system(size: 50))
-                    .fontWeight(.heavy)
-                    .fontDesign(.monospaced)
-                    Image(systemName: "cross")
-                    .foregroundColor(.green)
-                    .opacity(0.5)
-                    .imageScale(.large)
-                    .fontWeight(.heavy)
-                    .background()
-                    .cornerRadius(10)
-            }
-            
-            .padding()
-            .background(Color("lightGreen"))
-            .font(.largeTitle)
-            .shadow(color: .green, radius: 10)
-        .cornerRadius(10)
-           
-            VStack {
-                VStack(alignment:.leading,spacing:20) {
-                    Text("      Bem vindo(a) ao Life Plus, o app que te ajuda a ter uma vida mais longa e com maior qualidade com apenas duas etapas:")
-                    Text("1º Diagnóstico de expectativa de vida.")
-                    Text("2º Sugestões para extender sua expectativa de vida.")
-                }
-                .padding()
-                Text("Vamos começar: role a barra para selecionar o país onde você vive, em seguida pressione em iniciar.")
-                    .padding()
+        ScrollView {
+         Spacer()
+                Image("logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height:200)
+                    .rotation3DEffect(
+                        .degrees(introViewModel.logoRotation), axis: (x:0, y: 1, z:0))
+                    .scaleEffect(introViewModel.logoscale)
+                    .frame(maxWidth:.infinity, maxHeight: .infinity)
+        
+            VStack(alignment:.leading,spacing: 10) {
+                    Text("Bem vindo(a) ao Life Plus!")
                     .fontWeight(.bold)
-                //MARK: - PICKER
-                Picker("País",selection: $lifePlusViewModel.lifeExpectancy.naturality){
-                    ForEach(Country.allCases, id:\.self){ country in Text(country.rawValue).tag(country.rawValue)
-                            .pickerStyle(.wheel)
-                            .frame(width:350,height: 120)
-                            .background(Color("lightGreen"))
-                            .fontWeight(.semibold)
-                            .font(.title)
-                            .cornerRadius(20)
-                    }
+                Text("Tenha uma vida mais longa e saudável em apenas duas etapas:")
+                        //.lineLimit(3...)
+                        .fontWeight(.bold)
+                        .padding(.bottom)
+                        Text("1º Diagnóstico de expectativa de vida;")
+                        Text("2º Relatório detalhado com dicas para te ajudar extender sua expectativa de vida.")
+                    .lineLimit(2...)
                 }
-                .frame(height:100)
-                //MARK: - PICKERSTYLE
-                .pickerStyle(.wheel)
-                //MARK: - BUTTON
+            .font(.system(size:20))
+            .foregroundColor(Color("AccentColor"))
+            .padding(20)
+            .background(Color("background"))
+            .cornerRadius(10)
+           
+                //MARK: BUTTON
                 Spacer()
-                NavigationLink("Iniciar", value: Screen.question(lifePlusViewModel.lifeExpectancy))
-                    .padding(10)
-                    .background(Color("AccentColor"))
-                    .cornerRadius(10)
-                    .foregroundColor(.white)
-                    .fontWeight(.semibold)
-                Spacer()
-            }
-            .ignoresSafeArea()
-            .background(Color(.white))
-            .padding()
-            .cornerRadius(70)
+            Button{
+                withAnimation(.easeIn(duration: 0.5)){
+                    introViewModel.logoRotation += 360
+                    introViewModel.logoscale = 1.5
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.name)}
+            }label:{
+                    Text("Iniciar")
+                        .frame(maxWidth:.infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .navigationBarBackButtonHidden(true)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                .padding(10)
         }
-        .background(Color("lightGreen"))
+        .background{
+            Image("Wallpaper")
+                .opacity(0.2)
+        }
+        
     }
 }
 
 struct LifePlusUIView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
+        NavigationStack{
             IntroView()
                 .environmentObject(ContentViewModel())
         }
