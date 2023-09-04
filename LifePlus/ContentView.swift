@@ -49,10 +49,15 @@ struct ContentView: View {
                 dotAppearance.pageIndicatorTintColor = .green
         }
             .navigationBarBackButtonHidden(true)
+           
       }
-        .background(Color("background").opacity(0.9))
         .background{
             Image("Wallpaper")
+                .resizable()
+                .scaledToFill()
+                .opacity(0.6)
+                .background(.green)
+                .opacity(0.2)
         }
     }
 }

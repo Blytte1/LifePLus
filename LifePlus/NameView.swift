@@ -72,10 +72,13 @@ struct NameView: View {
             .background(Color("background"))
             .cornerRadius(10)
         }
-        .background(.green.opacity(0.2))
         .background{
             Image("Wallpaper")
-                .opacity(0.3)
+                .resizable()
+                .scaledToFill()
+                .opacity(0.6)
+                .background(.green)
+                .opacity(0.2)
         }
     }
 }

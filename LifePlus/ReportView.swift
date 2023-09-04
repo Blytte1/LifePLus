@@ -33,6 +33,7 @@ struct ReportView: View {
                 }
                 .background(.white)
         }
+        .navigationBarBackButtonHidden(true)
         .background(.white)
         .tabViewStyle(.automatic)
     }

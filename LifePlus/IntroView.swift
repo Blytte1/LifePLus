@@ -64,12 +64,14 @@ struct IntroView: View {
                 .cornerRadius(10)
                 .padding(10)
         }
-        .background(.green.opacity(0.2))
         .background{
             Image("Wallpaper")
-                .opacity(0.3)
+                .resizable()
+                .scaledToFill()
+                .opacity(0.6)
+                .background(.green)
+                .opacity(0.2)
         }
-        
     }
 }
 

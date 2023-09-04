@@ -53,16 +53,19 @@ struct AnswerView: View {
                     }label:{
                         VStack(alignment: .leading, spacing:5){
                             Text(question.question)
-                                .fontWeight(.semibold)
+                                .fontWeight(.bold)
+                                .foregroundColor(.red)
                             HStack {
                                 Text("\(question.answerDescription)")
+                                    .shadow(radius: 10)
                                 Spacer()
                                 Image(systemName:"arrow.up.square")
                             }
-                            .foregroundColor(.gray)
+                            .foregroundColor(.white)
+                            .fontWeight(.black)
                         }
-                        .font(.body)
-                        .foregroundColor(.red)
+                       
+                        
                         .padding(5)
                         .frame(width:350)
                         .cornerRadius(15)
@@ -78,15 +81,19 @@ struct AnswerView: View {
                 model in QuestionView( user: user, question: model.question)
             }
         }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarBackButtonHidden(true)
-        .scrollContentBackground(.hidden)
         .background{
             Image("Wallpaper")
+                .resizable()
+                .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
                 .opacity(0.2)
+                
         }
+        .navigationTitle("Você pode viver até os \(user.lifeExpectancy.totalLifeExpectancy) anos de idade").foregroundColor(.red)
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .scrollContentBackground(.hidden)
     }
 }
 struct AnswerView_Previews: PreviewProvider {

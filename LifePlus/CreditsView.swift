@@ -33,6 +33,8 @@ struct CreditsView: View {
         .scrollContentBackground(.hidden)
         .background{
             Image("Wallpaper")
+                .resizable()
+                .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
                 .opacity(0.2)
