@@ -51,7 +51,7 @@ struct IntroView: View {
             Button{
                 withAnimation(.easeIn(duration: 0.5)){
                     introViewModel.logoRotation += 360
-                    introViewModel.logoscale = 1.5
+                    introViewModel.logoscale = 1.3
                 }
                 DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.name)}
             }label:{
@@ -64,9 +64,10 @@ struct IntroView: View {
                 .cornerRadius(10)
                 .padding(10)
         }
+        .background(.green.opacity(0.2))
         .background{
             Image("Wallpaper")
-                .opacity(0.2)
+                .opacity(0.3)
         }
         
     }

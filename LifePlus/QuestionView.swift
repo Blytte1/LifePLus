@@ -15,7 +15,9 @@ struct QuestionView: View {
     private(set) var question: Question
     var body: some View {
         ScrollView (){
-            VStack(spacing:-5) {
+            HStack(spacing:-5) {
+                Text("Arraste para baixo para voltar")
+                    .padding()
                 Image(systemName:"chevron.down.circle")
             }
             VStack {
@@ -23,11 +25,11 @@ struct QuestionView: View {
                     Spacer()
                     Text(question.question)
                         .padding(.horizontal,10)
-                        .foregroundColor(.gray)
+                        .foregroundColor(.black)
                         .fontWeight(.semibold)
                     HStack {
                         Text("Resposta: ")
-                            .foregroundColor(.gray)
+                            .foregroundColor(.black)
                             .fontWeight(.semibold)
                         Text(questionViewModel.question.answerDescription)
                     }
@@ -36,7 +38,7 @@ struct QuestionView: View {
                     HStack {
                         
                         Text(questionViewModel.question.answerValue <= 0 ? "Impacto na saúde:":"Impacto na saúde: +")
-                            .foregroundColor(.gray)
+                            .foregroundColor(.black)
                             .fontWeight(.semibold)
                         Text("\(questionViewModel.question.answerValue) anos de vida.")
                     }
@@ -45,7 +47,7 @@ struct QuestionView: View {
                         .padding(10)
                     VStack (alignment:.leading){
                         Text("Dica:")
-                            .foregroundColor(.gray)
+                            .foregroundColor(.black)
                             .fontWeight(.semibold)
                             .padding(5)
                         Text("      \(questionViewModel.recommendation)")
@@ -53,15 +55,15 @@ struct QuestionView: View {
                     }
                     .background(.white)
                     .foregroundColor(.accentColor)
-                    .fontWeight(.semibold)
+                    .fontWeight(.bold)
                     .cornerRadius(20)
                     .padding()
                     Spacer()
                 }
                 .font(.body)
                 .foregroundColor(.accentColor)
-                .background(.green.opacity(0.3))
-                .background(.white)
+                .fontWeight(.semibold)
+                .background(.white.opacity(0.5))
                 .cornerRadius(10)
                 .padding(10)
             }
@@ -87,6 +89,8 @@ struct QuestionView: View {
         }
         .background{
             Image("Wallpaper")
+                .opacity(0.6)
+                .background(.green)
                 .opacity(0.2)
         }
         .onAppear(){

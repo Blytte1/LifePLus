@@ -35,11 +35,11 @@ struct ContentView: View {
                 }
             }
             .animation(
-                .easeInOut,
+                .easeInOut(duration: 1),
                 value: contentViewModel.pageIndex
             )
             .indexViewStyle(
-                .page(backgroundDisplayMode: .interactive)
+                .page(backgroundDisplayMode: .automatic)
             )
             .tabViewStyle(.page)
             .onAppear(){
@@ -87,20 +87,13 @@ struct headder: View {
                             .padding(2)
                     }
                     else{
-                        Text("Viva +")
+                        Text("Viva +") 
                             .font(.system(size: 60))
                             .fontWeight(.black)
                             .padding(2)
                     }
                 }
-                .rotation3DEffect(
-                    .degrees(contentViewModel.rotation),
-                    axis: (0, 1, 0)
-                )
-                .animation(
-                    .interactiveSpring()
-                    , value:contentViewModel.ageUpdated
-                )
+               
 //MARK: Numero de anos
                 ZStack{
                     Rectangle()
@@ -120,19 +113,29 @@ struct headder: View {
                         axis: (x:0,y:1,z:0))
                 }
                 .foregroundColor(.white)
+                //rotação do placar de anos
                 .rotation3DEffect(
                     .degrees(contentViewModel.rotation),
                     axis: (x:0,y:1,z:0)
                 )
+                
                 .animation(
-                    .easeIn(duration: 0.6),
-                    value: contentViewModel.user.lifeExpectancy.totalLifeExpectancy
+                    .easeIn(duration: 0.5),
+                    value: contentViewModel.rotation
                 )
             }
+            .rotation3DEffect(
+                .degrees(-360),
+                axis: (1, 0,0)
+            )
+            .animation(
+                .easeInOut(duration: 0.5)
+                , value:contentViewModel.ageUpdated
+            )
             .foregroundColor(.accentColor)
         }
         .animation(
-            .easeInOut(duration: 2),
+            .easeInOut(duration: 1),
             value: contentViewModel.user.age
         )
         .frame(

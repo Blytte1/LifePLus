@@ -36,16 +36,15 @@ struct NameView: View {
                 .frame(maxWidth:.infinity, maxHeight: .infinity)
             
             VStack(alignment:.leading,spacing: 20) {
-                Text("Vamos começar: role a barra para selecionar o país onde você vive, em seguida pressione em iniciar.")
-                    .lineLimit(3...)
-                    
+                
+                
                 Text("Insira seu nome:")
                 
-                TextField("Digite seu nome", text: $nameViewModel.user.name)
+                TextField("Digite aqui", text: $nameViewModel.user.name)
                     .textFieldStyle(.roundedBorder)
-                   
+                
                     .keyboardType(.alphabet)
-        
+                
                 //ter um exemplo de proposta de anuncio
                 Button{
                     DispatchQueue.main.asyncAfter(deadline: .now()+0.5){  contentViewModel.path.append(Screen.content(nameViewModel.user))
@@ -53,14 +52,14 @@ struct NameView: View {
                     withAnimation(
                         .easeIn(duration: 0.5)
                     )
-                     {
-                      nameViewModel.logoRotation += 360
-                      nameViewModel.logoscale = 1.5
+                    {
+                        nameViewModel.logoRotation += 360
+                        nameViewModel.logoscale = 1.5
                     }
                 }label:{
                     Text("Iniciar")
                         .frame(maxWidth:.infinity)
-
+                    
                 }
                 .buttonStyle(.borderedProminent)
                 .foregroundColor(.white)
@@ -73,9 +72,10 @@ struct NameView: View {
             .background(Color("background"))
             .cornerRadius(10)
         }
+        .background(.green.opacity(0.2))
         .background{
             Image("Wallpaper")
-                .opacity(0.2)
+                .opacity(0.3)
         }
     }
 }

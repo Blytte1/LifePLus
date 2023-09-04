@@ -67,10 +67,7 @@ struct Page: View {
                                 contentViewModel.incrementPage()
                                 contentViewModel.user.age = age
                                 contentViewModel.updateAnswer(question: question)
-                                withAnimation(.interpolatingSpring(stiffness: 10, damping: 1)) {
-                                    
                                     contentViewModel.ageUpdated.toggle()
-                                }
                             }label:{
                                 Text("Confirma")
                                     .foregroundColor(.white)

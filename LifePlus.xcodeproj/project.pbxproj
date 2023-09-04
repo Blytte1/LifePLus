@@ -10,11 +10,16 @@
 		6819938C2A4128B400DAD975 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6819938B2A4128B400DAD975 /* Model.swift */; };
 		6819938E2A4133A700DAD975 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6819938D2A4133A700DAD975 /* ContentViewModel.swift */; };
 		684B866E2A7AE05D00F48168 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684B866D2A7AE05D00F48168 /* QuestionView.swift */; };
+		6854C98E2AA23840002795F9 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6854C98D2AA23840002795F9 /* Questions.swift */; };
+		6854C9902AA238E5002795F9 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6854C98F2AA238E5002795F9 /* MenuView.swift */; };
 		6857B55A2A538A6400C86848 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857B5592A538A6400C86848 /* enums.swift */; };
 		686C4CCD2A7823E500516D60 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686C4CCC2A7823E500516D60 /* SwiftUIView.swift */; };
 		68733B022A8E66FE004F1EE7 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68733B012A8E66FE004F1EE7 /* Loading.swift */; };
 		68733B082A8E8F31004F1EE7 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68733B072A8E8F31004F1EE7 /* NameView.swift */; };
 		687E7EFD2A742A5A00615B8A /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E7EFC2A742A5A00615B8A /* PageViewModel.swift */; };
+		68967C132AA24A51004723FF /* ReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C122AA24A51004723FF /* ReferenceView.swift */; };
+		68967C152AA24ADC004723FF /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C142AA24ADC004723FF /* CreditsView.swift */; };
+		68967C172AA24AF1004723FF /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C162AA24AF1004723FF /* BusinessView.swift */; };
 		68BB131B2A38DD0900431AE1 /* LifePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */; };
 		68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131C2A38DD0900431AE1 /* ContentView.swift */; };
 		68BB131F2A38DD0B00431AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB131E2A38DD0B00431AE1 /* Assets.xcassets */; };
@@ -51,11 +56,16 @@
 		6819938D2A4133A700DAD975 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		682980382A8C52CC000B2EF4 /* LifePlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LifePlus.entitlements; sourceTree = "<group>"; };
 		684B866D2A7AE05D00F48168 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		6854C98D2AA23840002795F9 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		6854C98F2AA238E5002795F9 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		6857B5592A538A6400C86848 /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 		686C4CCC2A7823E500516D60 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		68733B012A8E66FE004F1EE7 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		68733B072A8E8F31004F1EE7 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 		687E7EFC2A742A5A00615B8A /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
+		68967C122AA24A51004723FF /* ReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceView.swift; sourceTree = "<group>"; };
+		68967C142AA24ADC004723FF /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		68967C162AA24AF1004723FF /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
 		68BB13172A38DD0900431AE1 /* LifePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePlusApp.swift; sourceTree = "<group>"; };
 		68BB131C2A38DD0900431AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +129,11 @@
 				68BB13492A38E57000431AE1 /* Page.swift */,
 				68BB131C2A38DD0900431AE1 /* ContentView.swift */,
 				68BDC55F2A4250BE00A85E91 /* ReportView.swift */,
+				6854C98D2AA23840002795F9 /* Questions.swift */,
+				6854C98F2AA238E5002795F9 /* MenuView.swift */,
+				68967C162AA24AF1004723FF /* BusinessView.swift */,
+				68967C142AA24ADC004723FF /* CreditsView.swift */,
+				68967C122AA24A51004723FF /* ReferenceView.swift */,
 				684B866D2A7AE05D00F48168 /* QuestionView.swift */,
 			);
 			name = Views;
@@ -315,15 +330,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C6C79C2A7993B0003947DD /* LifeExpectancy.swift in Sources */,
+				68967C172AA24AF1004723FF /* BusinessView.swift in Sources */,
+				68967C152AA24ADC004723FF /* CreditsView.swift in Sources */,
+				68967C132AA24A51004723FF /* ReferenceView.swift in Sources */,
 				687E7EFD2A742A5A00615B8A /* PageViewModel.swift in Sources */,
 				6819938E2A4133A700DAD975 /* ContentViewModel.swift in Sources */,
 				686C4CCD2A7823E500516D60 /* SwiftUIView.swift in Sources */,
 				6819938C2A4128B400DAD975 /* Model.swift in Sources */,
+				6854C9902AA238E5002795F9 /* MenuView.swift in Sources */,
 				68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */,
 				68733B082A8E8F31004F1EE7 /* NameView.swift in Sources */,
 				68733B022A8E66FE004F1EE7 /* Loading.swift in Sources */,
 				68BB131B2A38DD0900431AE1 /* LifePlusApp.swift in Sources */,
 				68EC25262A95423500B4139D /* QuestionViewModel.swift in Sources */,
+				6854C98E2AA23840002795F9 /* Questions.swift in Sources */,
 				68BB134C2A391E0700431AE1 /* DummyData.swift in Sources */,
 				6857B55A2A538A6400C86848 /* enums.swift in Sources */,
 				68BB13462A38E51A00431AE1 /* IntroView.swift in Sources */,
@@ -500,8 +520,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -510,7 +530,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blytte.LifePlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,8 +560,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -549,7 +570,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blytte.LifePlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

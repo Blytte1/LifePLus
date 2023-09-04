@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DummyData{
     
-    static var user:User = User(lifeExpectancy: DummyData.lifeExpectancy, name: "Roberto Mascarenhas",age:60)
+    static var user:User = User(lifeExpectancy: DummyData.lifeExpectancy, name: "Roberto Mascarenhas",age:30)
     
     static var lifeExpectancy = LifeExpectancy(questions: questions, naturality: "🇧🇷 Brasil", totalLifeExpectancy:76)
     

@@ -28,13 +28,18 @@ class ContentViewModel:ObservableObject{
         if let index = user.lifeExpectancy.questions.firstIndex(where:{$0.id == question.id}){
             
             user.lifeExpectancy.questions[index].answerValue = answer
-            user.lifeExpectancy.questions[index].answerDescription = description
-            user.lifeExpectancy.totalLifeExpectancy += answer
             if (answer < 0){
                 rotation -= 360
-            }else if answer >= 0{
-             rotation += 360
-            }else{ rotation = 720}
+            }else if answer > 0{
+                rotation += 360
+            }else{
+                rotation -= 90
+                DispatchQueue.main.asyncAfter(deadline: .now()+0.1){
+                    self.rotation += 90
+                }
+            }
+            user.lifeExpectancy.questions[index].answerDescription = description
+            user.lifeExpectancy.totalLifeExpectancy += answer
             
             print(user.lifeExpectancy.questions[index].question)
             print(" resposta da pergunta: \(user.lifeExpectancy.questions[index].answerDescription)")
