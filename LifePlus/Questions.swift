@@ -87,7 +87,7 @@ struct AnswerView: View {
                 .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
-                .opacity(0.2)
+                .opacity(0.3)
                 
         }
         .navigationTitle("Você pode viver até os \(user.lifeExpectancy.totalLifeExpectancy) anos de idade").foregroundColor(.red)
