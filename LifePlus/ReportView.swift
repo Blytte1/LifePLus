@@ -34,7 +34,14 @@ struct ReportView: View {
                 .background(.white)
         }
         .navigationBarBackButtonHidden(true)
-        .background(.white)
+        .background{
+            Image("Wallpaper")
+                .resizable()
+                .scaledToFill()
+                .opacity(0.6)
+                .background(.green)
+                .opacity(0.2)
+        }
         .tabViewStyle(.automatic)
     }
 }
