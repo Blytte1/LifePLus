@@ -53,7 +53,7 @@ struct IntroView: View {
                     introViewModel.logoRotation += 360
                     introViewModel.logoscale = 1.3
                 }
-                DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.name)}
+                DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.content(introViewModel.user))}
             }label:{
                     Text("Iniciar")
                         .frame(maxWidth:.infinity)
@@ -70,7 +70,7 @@ struct IntroView: View {
                 .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
-                .opacity(0.2)
+                .opacity(0.3)
         }
     }
 }

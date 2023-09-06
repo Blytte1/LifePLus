@@ -13,7 +13,7 @@ struct ContentView: View {
      let user: User
     private let dotAppearance = UIPageControl.appearance()
     var body: some View {
-        VStack (spacing:0){
+        VStack {
             
             headder()
                 
@@ -22,7 +22,7 @@ struct ContentView: View {
                 withAnimation(.easeIn) {
                     ForEach(contentViewModel.user.lifeExpectancy.questions, id:\.self){
                         question in
-                        ScrollView {
+                        VStack {
                             Page(question: question,
                                  answer: contentViewModel.answer,
                                  description: contentViewModel.description,
@@ -30,23 +30,26 @@ struct ContentView: View {
                             )
                                 .cornerRadius(20)
                             }
+                     
                         .tag(question.tag)
                     }
                 }
             }
+            .frame(maxWidth:.infinity,maxHeight:.infinity)
             .animation(
                 .easeInOut(duration: 1),
                 value: contentViewModel.pageIndex
             )
+            .padding(.vertical)
             .indexViewStyle(
-                .page(backgroundDisplayMode: .automatic)
-            )
+                .page(backgroundDisplayMode: .never)
+            ).ignoresSafeArea()
             .tabViewStyle(.page)
             .onAppear(){
                 contentViewModel.user = user
                 contentViewModel.user.lifeExpectancy.totalLifeExpectancy = user.lifeExpectancy.initialLifeExpectancy
                 dotAppearance.currentPageIndicatorTintColor = .red
-                dotAppearance.pageIndicatorTintColor = .green
+                dotAppearance.pageIndicatorTintColor = .cyan
         }
             .navigationBarBackButtonHidden(true)
            
@@ -57,7 +60,7 @@ struct ContentView: View {
                 .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
-                .opacity(0.2)
+                .opacity(0.3)
         }
     }
 }
@@ -144,7 +147,7 @@ struct headder: View {
             value: contentViewModel.user.age
         )
         .frame(
-            minWidth:170,
+           
                maxWidth:.infinity
                , maxHeight:140
         )

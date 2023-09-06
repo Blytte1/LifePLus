@@ -41,6 +41,7 @@ struct AnswerView: View {
                 .padding()
         }
             .frame(width: 200)
+           
             VStack (alignment:.center){
                 Text("Clique nas perguntas para ver as dicas")
                     .foregroundColor(.accentColor)
@@ -64,10 +65,8 @@ struct AnswerView: View {
                             .foregroundColor(.white)
                             .fontWeight(.black)
                         }
-                       
-                        
-                        .padding(5)
-                        .frame(width:350)
+                        .frame(maxWidth:.infinity)
+                        .padding()
                         .cornerRadius(15)
                         .background(
                             .mint
@@ -77,10 +76,12 @@ struct AnswerView: View {
                     }
                 }
             }
-            .sheet(item: $reportViewModel){
-                model in QuestionView( user: user, question: model.question)
+            
+            .sheet(item: $reportViewModel){model in QuestionView( user: user, question: model.question)
             }
+            
         }
+        .frame(maxWidth:.infinity)
         .background{
             Image("Wallpaper")
                 .resizable()
@@ -88,12 +89,19 @@ struct AnswerView: View {
                 .opacity(0.6)
                 .background(.green)
                 .opacity(0.3)
-                
         }
-        .navigationTitle("Você pode viver até os \(user.lifeExpectancy.totalLifeExpectancy) anos de idade").foregroundColor(.red)
-        .navigationBarTitleDisplayMode(.inline)
+        .foregroundColor(.red)
+        .navigationBarTitleDisplayMode(.automatic)
         .navigationBarBackButtonHidden(true)
-        .scrollContentBackground(.hidden)
+        .toolbar {
+            ToolbarItem(placement: ToolbarItemPlacement.principal) {
+                Text("Você pode viver até os \(user.lifeExpectancy.totalLifeExpectancy) anos de idade")
+                    .foregroundColor(.accentColor)
+                    .font(.title)
+            }
+        }
+       // .navigationTitle("Você pode viver até os \(user.lifeExpectancy.totalLifeExpectancy) anos de idade")
+      
     }
 }
 struct AnswerView_Previews: PreviewProvider {

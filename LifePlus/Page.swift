@@ -35,9 +35,10 @@ struct Page: View {
             //MARK: - IMAGE
             Image(question.questionImageUrl)
                 .resizable()
+                .scaledToFit()
                 .cornerRadius(10)
+                .frame(maxWidth:600)
                 .padding(5)
-                .frame(width:360,height: 250)
             // MARK: - QUESTION
             VStack{
                 Text(question.question)
@@ -45,7 +46,7 @@ struct Page: View {
                     .fontWeight(.semibold)
                     .lineLimit(3...)
                     .font(.title3)
-                    .frame(width:360)
+                    .frame(maxWidth:.infinity)
                 //MARK: - PAGES
                 VStack{
                     
@@ -407,19 +408,6 @@ struct Page: View {
                     }
                 }
             }
-            .toolbar{
-                ToolbarItemGroup(placement: .keyboard) {
-                    Spacer()
-                    Button("Pronto"){
-                        keyboardIsFocused = false
-                        answer = age < 30 ? 0:  age >= 30 && age <= 50 ? 2:4
-                        description = String(age) + " Anos"
-                        contentViewModel.incrementPage()
-                        contentViewModel.updateAnswer(question: question)
-                    }
-                        .buttonStyle(.borderedProminent)
-                }
-            }
         }
         .cornerRadius(20)
     }
@@ -432,5 +420,8 @@ struct Page_Previews: PreviewProvider {
                 .environmentObject(ContentViewModel())
                 .padding(30)
         }
+    
+      
+        
     }
 }

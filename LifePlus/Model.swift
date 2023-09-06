@@ -10,7 +10,6 @@ import Foundation
 struct User:Hashable, Identifiable{
     var id = UUID()
     var lifeExpectancy: LifeExpectancy
-    var name: String
     var age:Int
 }
 

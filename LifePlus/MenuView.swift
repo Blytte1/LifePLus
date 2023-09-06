@@ -27,7 +27,7 @@ struct MenuView: View {
                 .frame(maxWidth:.infinity, maxHeight: .infinity)
             }
             Button("Reiniciar Teste") {
-                contentViewModel.user.name = ""
+               
                 contentViewModel.user.age = 30
                 contentViewModel.ageUpdated = false
                 contentViewModel.rotation = 0
@@ -50,9 +50,8 @@ struct MenuView: View {
                 .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
-                .opacity(0.2)
+                .opacity(0.3)
         }
-        
     }
 }
 

@@ -15,7 +15,7 @@ struct NameViewModel{
     }
     var logoRotation: Double = 0.0
     var logoscale: Double = 1.0
-    init(){ user = User(lifeExpectancy: DummyData.lifeExpectancy, name: "", age: 25)}
+    init(){ user = User(lifeExpectancy: DummyData.lifeExpectancy, age: 25)}
 }
 
 struct NameView: View {
@@ -40,10 +40,10 @@ struct NameView: View {
                 
                 Text("Insira seu nome:")
                 
-                TextField("Digite aqui", text: $nameViewModel.user.name)
-                    .textFieldStyle(.roundedBorder)
+               // TextField("Digite aqui", text: $nameViewModel.user.name)
+                //    .textFieldStyle(.roundedBorder)
                 
-                    .keyboardType(.alphabet)
+                   // .keyboardType(.alphabet)
                 
                 //ter um exemplo de proposta de anuncio
                 Button{
@@ -78,7 +78,7 @@ struct NameView: View {
                 .scaledToFill()
                 .opacity(0.6)
                 .background(.green)
-                .opacity(0.2)
+                .opacity(0.3)
         }
     }
 }

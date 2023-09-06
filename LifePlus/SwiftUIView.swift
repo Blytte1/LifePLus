@@ -15,7 +15,7 @@ let tag:Int
         .fontWeight(.heavy)
         .tag(0)
         .padding(.vertical,3)
-        .frame(minWidth: 250,maxWidth: 350, alignment: .center)
+        .frame(maxWidth: .infinity, alignment: .center)
         .cornerRadius(20)
     }
 }
