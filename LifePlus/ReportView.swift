@@ -38,6 +38,7 @@ struct ReportView: View {
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .ignoresSafeArea()
                 .opacity(0.6)
                 .background(.green)
                 .opacity(0.3)
