@@ -23,7 +23,7 @@ struct IntroView: View {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
-                    .frame(height:200)
+                    .frame(height:150)
                     .rotation3DEffect(
                         .degrees(introViewModel.logoRotation), axis: (x:0, y: 1, z:0))
                     .scaleEffect(introViewModel.logoscale)
@@ -36,8 +36,10 @@ struct IntroView: View {
                         //.lineLimit(3...)
                         .fontWeight(.bold)
                         .padding(.bottom)
-                        Text("1º Diagnóstico de expectativa de vida;")
+                        Text("1º Questionário de expectativa de vida, inspirado na pesquisa de Shino Nemoto & Toren Finkel divulgadas na revista Nature em 2004;")
                         Text("2º Relatório detalhado com dicas para te ajudar extender sua expectativa de vida.")
+                Text("Atenção: esse app não tem fins medicinais. Para maiores informações o médico deverá ser consultado.")
+                    .font(.callout)
                     .lineLimit(2...)
                 }
             .font(.system(size:20))

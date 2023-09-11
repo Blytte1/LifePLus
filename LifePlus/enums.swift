@@ -258,7 +258,7 @@ extension Cancer:CustomStringConvertible, Identifiable{
 }
 //MARK: - INCOME
 enum Income:Int, CaseIterable{
-    case yes = 2
+    case yes = -2
     case no = 0
 }
 extension Income:CustomStringConvertible, Identifiable{

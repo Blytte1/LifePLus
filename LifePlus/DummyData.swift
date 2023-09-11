@@ -11,7 +11,7 @@ struct DummyData{
     
     static var user:User = User(lifeExpectancy: DummyData.lifeExpectancy,age:30)
     
-    static var lifeExpectancy = LifeExpectancy(questions: questions, naturality: "🇧🇷 Brasil", totalLifeExpectancy:76)
+    static var lifeExpectancy = LifeExpectancy(questions: questions, naturality: "🇧🇷 Brasil", totalLifeExpectancy:77)
     
     static  var questions:[Question] = [age,gender,city,grandParents,longevity,heart, cancer,income,graduation,workover65,married,lonely,work,exercise,sleepy,personality,speedy,alcoholic,smoker,overwheight,checkups]
 

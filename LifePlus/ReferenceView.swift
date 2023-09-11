@@ -10,9 +10,16 @@ import SwiftUI
 struct ReferenceView: View {
     var body: some View {
         List{
-            Text("Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152")
-            Text("IBGE, Projeção da população do Brasil e Unidades da Federação por sexo e idade para o período 2010-2060. Revisão 2019. 1980 e 1991 - ALBUQUERQUE, Fernando Roberto P. de C. e SENNA, Janaína R. Xavier “Tábuas de Mortalidade por Sexo e Grupos de Idade - Grandes e Unidades da Federação – 1980, 1991 e 2000. Textos para discussão, Diretoria de Pesquisas, IBGE, Rio de Janeiro, 2005.161p. ISSN 1518-675X ; n. 20")
-            Text("The World health statistics report 2023, OMS")
+            Link(destination: URL(string: "https://www.readcube.com/articles/10.1038/429149a") ?? URL(string: "https://www.apple.com/br/")!) {
+                
+                Text("Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152")
+                }
+            Link(destination: URL(string: "https://cdn.who.int/media/docs/default-source/gho-documents/world-health-statistic-reports/2023/world-health-statistics-2023_20230519_.pdf?sfvrsn=bfa18d07_1&download=true") ?? URL(string: "https://www.apple.com/br/")!) {
+                Text("The World health statistics report 2023, OMS")
+            }
+            Link(destination: URL(string:"https://svs.aids.gov.br/daent/centrais-de-conteudos/paineis-de-monitoramento/saude-brasil/mortalidade-geral/") ?? URL(string: "https://www.apple.com/br/")!) {
+                Text("Saúde Brasil - Principais causas de morte no Brasil")
+            }
         }
         .navigationTitle("Referências")
         .scrollContentBackground(.hidden)
