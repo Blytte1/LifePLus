@@ -14,25 +14,9 @@ let tag:Int
         .foregroundColor(.white)
         .fontWeight(.heavy)
         .tag(0)
-        .padding(.vertical,3)
+        .padding(3)
         .frame(maxWidth: .infinity, alignment: .center)
         .cornerRadius(20)
     }
 }
 
-struct SwiftUIView: View {
-    var body: some View {
-        List{
-            Section("sadf"){
-                Text("sadfsdf")
-            }
-        }
-        .listStyle(SidebarListStyle())
-    }
-}
-
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIView()
-    }
-}

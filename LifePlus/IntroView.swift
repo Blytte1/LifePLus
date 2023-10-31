@@ -2,16 +2,11 @@
 //  LifePlusUIView.swift
 //  LifePlus
 //
-//  Created by Roberto Mascarenhas on 13/06/23.
+//  Created by Roberto Mascarenhas on 13/06/23
 //
 
 import SwiftUI
 
-struct IntroViewModel{
-    var user = DummyData.user
-    var logoRotation = 0.0
-    var logoscale = 1.0
-}
 
 
 struct IntroView: View {
@@ -28,36 +23,58 @@ struct IntroView: View {
                         .degrees(introViewModel.logoRotation), axis: (x:0, y: 1, z:0))
                     .scaleEffect(introViewModel.logoscale)
                     .frame(maxWidth:.infinity, maxHeight: .infinity)
-        
+                    .padding(.bottom,30)
             VStack(alignment:.leading,spacing: 10) {
-                    Text("Bem vindo(a) ao Life Plus!")
+                Text("Bem-vindo ao LifePlus!")
                     .fontWeight(.bold)
-                Text("Tenha uma vida mais longa e saudável em apenas duas etapas:")
-                        //.lineLimit(3...)
-                        .fontWeight(.bold)
-                        .padding(.bottom)
-                        Text("1º Questionário de expectativa de vida, inspirado na pesquisa de Shino Nemoto & Toren Finkel divulgadas na revista Nature em 2004;")
-                        Text("2º Relatório detalhado com dicas para te ajudar extender sua expectativa de vida.")
+                Text("Responda um breve questionário para receber dicas valiosas que te ajudarão a ter uma vida mais longa e saudável.")
                 Text("Atenção: esse app não tem fins medicinais. Para maiores informações o médico deverá ser consultado.")
                     .font(.callout)
                     .lineLimit(2...)
+                    .foregroundStyle(.white)
                 }
+            .padding(10)
             .font(.system(size:20))
-            .foregroundColor(Color("AccentColor"))
-            .padding(20)
-            .background(Color("background"))
-            .cornerRadius(10)
-           
+            .fontWeight(.semibold)
+            .foregroundColor(Color("textColor"))
+            .background{Color("textBox")}
+            .cornerRadius(25)
+            .padding(10)
                 //MARK: BUTTON
                 Spacer()
+            Text("Selecione um idioma")
+                .foregroundStyle(Color("textColor"))
+            HStack {
+                Button("Português") {
+                  withAnimation {
+                      contentViewModel.user.language = "pt-BR"
+                      introViewModel.user.language = "pt-BR"
+                  }
+                }
+                   .padding()
+                 Button("Español") {
+                   withAnimation {
+                       contentViewModel.user.language = "es"
+                       introViewModel.user.language = "es"
+                   }
+                 }
+                 .padding()
+                 Button("English") {
+                   withAnimation {
+                       contentViewModel.user.language = "en"
+                       introViewModel.user.language = "en"
+                   }
+                 }
+               }
+            .padding()
             Button{
-                withAnimation(.easeIn(duration: 0.5)){
+                withAnimation(.easeIn(duration: 0.3)){
                     introViewModel.logoRotation += 360
                     introViewModel.logoscale = 1.3
                 }
-                DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.content(introViewModel.user))}
+                DispatchQueue.main.asyncAfter(deadline: .now()+0.5){ contentViewModel.path.append(Screen.name(introViewModel.user))}
             }label:{
-                    Text("Iniciar")
+                Text("Iniciar")
                         .frame(maxWidth:.infinity)
                 }
                 .buttonStyle(.borderedProminent)
@@ -70,11 +87,11 @@ struct IntroView: View {
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 

@@ -6,19 +6,15 @@
 //
 
 import SwiftUI
-struct LoadingViewModel{
-  var rotation = 0.0
-  var   scale = 0.1
-}
+
+
 
 struct Loading: View {
     @State private var loadingViewModel = LoadingViewModel()
     @EnvironmentObject var contentViewModel: ContentViewModel
     var body: some View {
         
-        
         ZStack {
-            //Color(.white).ignoresSafeArea()
             Image("logo")
                 .resizable()
                 .scaledToFit()
@@ -39,14 +35,14 @@ struct Loading: View {
                     }
                 }
         }
+        
         .background{
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
     }
 }

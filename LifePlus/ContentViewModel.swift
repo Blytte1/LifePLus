@@ -15,7 +15,7 @@ class ContentViewModel:ObservableObject{
     @Published var user:User = DummyData.user
     @Published var path: [Screen] = []
     @Published var rotation = 0.0
-    
+    @Published var age = 30
     func incrementPage(){
         pageIndex += 1
     }

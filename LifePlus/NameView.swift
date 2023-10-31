@@ -6,19 +6,13 @@
 //
 
 import SwiftUI
-struct NameViewModel{
-    var contentViewModel = ContentViewModel()
-    var user: User{
-        didSet{
-            contentViewModel.user = user
-        }
-    }
-    var logoRotation: Double = 0.0
-    var logoscale: Double = 1.0
-    init(){ user = User(lifeExpectancy: DummyData.lifeExpectancy, age: 25)}
-}
+
+
+
+
 
 struct NameView: View {
+    var user:User
     @State var nameViewModel = NameViewModel()
     @EnvironmentObject  var contentViewModel : ContentViewModel
     var body: some View {
@@ -33,19 +27,33 @@ struct NameView: View {
                 .rotation3DEffect(
                     .degrees(nameViewModel.logoRotation), axis: (x:0, y: 1, z:0))
                 .scaleEffect(nameViewModel.logoscale)
-                .frame(maxWidth:.infinity, maxHeight: .infinity)
-            
-            VStack(alignment:.leading,spacing: 20) {
                 
+            VStack(alignment:.leading) {
                 
                 Text("Insira seu nome:")
-                
-               // TextField("Digite aqui", text: $nameViewModel.user.name)
-                //    .textFieldStyle(.roundedBorder)
-                
-                   // .keyboardType(.alphabet)
-                
-                //ter um exemplo de proposta de anuncio
+                    .padding(5)
+                TextField("Digite aqui", text: $nameViewModel.user.name)
+                   .textFieldStyle(.roundedBorder)
+                    .keyboardType(.alphabet)
+                    .padding(5)
+                HStack{
+                    Text("Qual sua idade?")
+                    Picker("Idade", selection: ($nameViewModel.user.age)) {
+                        ForEach(0...100, id: \.self){
+                            Text("\($0)")}
+                    }
+                }
+                    .padding(5)
+                Text("Selecione o País em que você vive:")
+                    .padding(5)
+                Picker("Selecione o País em que você vive", selection: $nameViewModel.user.lifeExpectancy.naturality) {
+                    ForEach(Country.allCases){
+                        Text($0.rawValue)
+                            .tag($0.rawValue)
+                            .fontWeight(.black)
+                    }
+                }
+                .padding()
                 Button{
                     DispatchQueue.main.asyncAfter(deadline: .now()+0.5){  contentViewModel.path.append(Screen.content(nameViewModel.user))
                     }
@@ -59,36 +67,44 @@ struct NameView: View {
                 }label:{
                     Text("Iniciar")
                         .frame(maxWidth:.infinity)
-                    
+                        .foregroundStyle(.white)
                 }
                 .buttonStyle(.borderedProminent)
-                .foregroundColor(.white)
                 .cornerRadius(10)
+                .padding()
                 .navigationBarBackButtonHidden(true)
             }
-            .padding()
-            .foregroundColor(Color("AccentColor"))
+            .foregroundColor(Color("textColor"))
             .fontWeight(.semibold)
-            .background(Color("background"))
+            .background{
+                Color.white.opacity(0.3)
+            }
             .cornerRadius(10)
+            .padding(15)
         }
         .background{
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
+        
+        .onAppear(){
+            nameViewModel.user = user
+            contentViewModel.user = nameViewModel.user
+        }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 
 struct NameView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack{
-            NameView()
+            NameView(user: DummyData.user)
                 .environmentObject(ContentViewModel())
+              
         }
     }
 }

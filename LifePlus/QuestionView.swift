@@ -10,26 +10,27 @@ import SwiftUI
 
 
 struct QuestionView: View {
-    @State var questionViewModel = QuestionViewModel()
+    @EnvironmentObject var contentViewModel:ContentViewModel
+@State var questionViewModel = QuestionViewModel()
    private(set) var user: User
     private(set) var question: Question
     var body: some View {
         ScrollView (){
-            HStack(spacing:-5) {
-                Text("Arraste para baixo para voltar")
-                    .padding()
-                Image(systemName:"chevron.down.circle")
-            }
+            Rectangle()
+                .fill(.white)
+                .frame(width:50,height:10)
+                .cornerRadius(10)
+                .padding(20)
             VStack {
                 VStack(alignment: .leading,spacing: 10){
                     Spacer()
                     Text(question.question)
                         .padding(.horizontal,10)
-                        .foregroundColor(.black)
+                        .foregroundStyle(.white)
                         .fontWeight(.semibold)
                     HStack {
                         Text("Resposta: ")
-                            .foregroundColor(.black)
+                            .foregroundStyle(.white)
                             .fontWeight(.semibold)
                         Text(questionViewModel.question.answerDescription)
                     }
@@ -37,33 +38,34 @@ struct QuestionView: View {
                     
                     HStack {
                         
-                        Text(questionViewModel.question.answerValue <= 0 ? "Impacto na saúde:":"Impacto na saúde: +")
-                            .foregroundColor(.black)
+                        Text("Impacto na saúde:")
                             .fontWeight(.semibold)
-                        Text("\(questionViewModel.question.answerValue) anos de vida.")
+                            .foregroundStyle(.white)
+                        Text(questionViewModel.question.answerValue <= 0 ? " \(questionViewModel.question.answerValue) anos de vida." : " + \(questionViewModel.question.answerValue) anos de vida.")
                     }
+                    .foregroundColor( questionViewModel.question.answerValue <= 0 ? .accentColor : Color("textColor"))
                         .padding(.horizontal,10)
                     Text("      \(questionViewModel.explanation)")
                         .padding(10)
                     VStack (alignment:.leading){
                         Text("Dica:")
-                            .foregroundColor(.black)
+                            .foregroundColor(Color("textColor"))
                             .fontWeight(.semibold)
                             .padding(5)
                         Text("      \(questionViewModel.recommendation)")
                             .padding(.horizontal, 10)
                     }
                     .background(.white)
-                    .foregroundColor(.accentColor)
+                    .foregroundColor(Color("textColor"))
                     .fontWeight(.bold)
                     .cornerRadius(20)
                     .padding()
                     Spacer()
                 }
                 .font(.body)
-                .foregroundColor(.accentColor)
+                .foregroundColor(Color("textColor"))
                 .fontWeight(.semibold)
-                .background(.white.opacity(0.5))
+                .background(Color("textBox"))
                 .cornerRadius(10)
                 .padding(10)
             }
@@ -91,17 +93,16 @@ struct QuestionView: View {
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
-                
+                .background(Color("background"))
         }
         .onAppear(){
             questionViewModel.user = user
             questionViewModel.question = question
             questionViewModel.loadRecomendationValues()
         }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 
@@ -109,8 +110,9 @@ struct QuestionView_Previews: PreviewProvider {
    
     static var previews: some View {
         NavigationStack {
-            QuestionView(user: DummyData.user, question: DummyData.user.lifeExpectancy.questions[20])
+            QuestionView(user: DummyData.user, question: DummyData.user.lifeExpectancy.questions[19])
                 .environmentObject(ContentViewModel())
+                
         }
     }
 }

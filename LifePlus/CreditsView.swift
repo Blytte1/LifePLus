@@ -8,38 +8,42 @@
 import SwiftUI
 
 struct CreditsView: View {
+    @EnvironmentObject var contentViewModel:ContentViewModel
     var body: some View {
-        List{
-            Section("Desenvolvedores"){
-                Text("Roberto Mascarenhas")
-                Text("Adson Diniz")
-            }
-            .foregroundColor(.accentColor)
-            .font(.title3)
-            .fontWeight(.black)
-            Section("Direito sobre Imagens"){
-                Link(destination: URL(string: "https://www.freepik.com") ?? URL(string: "https://www.apple.com/br/")!) {
-                    ForEach(DummyData.questions){question in
-                        Text("freePick.com")
-                    Image(question.questionImageUrl).resizable().scaledToFit()
+        VStack(alignment: .center){
+            Text("Desenvolvedores:")
+                .font(.title3)
+                .fontWeight(.black)
+            Text("Adson Diniz & Roberto Mascarenhas")
+                .font(.title3)
+                .fontWeight(.black)
+            List{
+                Section("Direito sobre Imagens"){
+                    Link(destination: URL(string: "https://www.freepik.com") ?? URL(string: "https://www.apple.com/br/")!) {
+                        ForEach(DummyData.questions){question in
+                            Text("freePick.com")
+                            Image(question.questionImageUrl)
+                                .resizable()
+                                .frame(width:350, height:300)
+                        }
                     }
+                    .listRowBackground(Color("textColor").opacity(0.0))
                 }
-                
+                .foregroundColor(.accentColor)
+                .font(.title3)
+                .fontWeight(.black)
             }
-            .foregroundColor(.accentColor)
-            .font(.title3)
-            .fontWeight(.black)
+            .scrollContentBackground(.hidden)
         }
-        .scrollContentBackground(.hidden)
         .background{
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 struct CreditView_Previews: PreviewProvider {

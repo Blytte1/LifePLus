@@ -6,17 +6,13 @@
 //
 
 import SwiftUI
-struct MenuViewModel{
-    var logoRotation = 0.0
-    var logoScale = 1.0
-}
+
 struct MenuView: View {
     @EnvironmentObject var contentViewModel: ContentViewModel
     @State var menuViewModel = MenuViewModel()
     @State var reportViewModel: ReportViewModel? = nil
     var body: some View {
         VStack{
-            VStack {
                 Image("logo")
                     .resizable()
                     .scaledToFit()
@@ -24,35 +20,34 @@ struct MenuView: View {
                     .rotation3DEffect(
                         .degrees(menuViewModel.logoRotation), axis: (x:0, y: 1, z:0))
                     .scaleEffect(menuViewModel.logoScale)
-                .frame(maxWidth:.infinity, maxHeight: .infinity)
+              
+          
+            List {
+                NavigationLink("Referências", destination: ReferenceView())
+                NavigationLink("Créditos", destination: CreditsView())
+                NavigationLink("Anuncie conosco!",destination: BusinessView())
             }
+            .frame(height: 180)
+            .scrollContentBackground(.hidden)
             Button("Reiniciar Teste") {
-               
                 contentViewModel.user.age = 30
                 contentViewModel.ageUpdated = false
                 contentViewModel.rotation = 0
                 contentViewModel.pageIndex = 0
-                contentViewModel.path = [.name]
-            }.buttonStyle(.borderedProminent)
-                List{
-                    NavigationLink("Referências", destination: ReferenceView())
-                       
-                    NavigationLink("Créditos", destination: CreditsView())
-                    NavigationLink("Anuncie conosco!",destination: BusinessView())
-                }
-                .scrollContentBackground(.hidden)
-            .listStyle(.insetGrouped)
-            
+                contentViewModel.path = [.name(DummyData.user)]
+            }
+            .buttonStyle(.borderedProminent)
+         Spacer()
         }
         .background{
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 

@@ -6,11 +6,7 @@
 //
 
 import SwiftUI
-struct  ReportViewModel: Identifiable{
-    var id = UUID()
-    let question:Question
-    var isActive:Bool = false
-}
+
 
 struct ReportView: View {
     @EnvironmentObject var contentViewModel: ContentViewModel
@@ -25,6 +21,7 @@ struct ReportView: View {
                 .tabItem {
                     Image(systemName:"doc.text")
                     Text("Report")
+                        .environment(\.locale, .init(identifier: contentViewModel.user.language))
                 }
             MenuView()
                 .tabItem {
@@ -38,12 +35,12 @@ struct ReportView: View {
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
         .tabViewStyle(.automatic)
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 struct ReportView_Previews: PreviewProvider {

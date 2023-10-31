@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ReferenceView: View {
+    @EnvironmentObject var contentViewModel:ContentViewModel
     var body: some View {
         List{
             Link(destination: URL(string: "https://www.readcube.com/articles/10.1038/429149a") ?? URL(string: "https://www.apple.com/br/")!) {
@@ -27,11 +28,11 @@ struct ReferenceView: View {
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
+                .opacity(0.05)
                 .ignoresSafeArea()
-                .opacity(0.6)
-                .background(.green)
-                .opacity(0.3)
+                .background(Color("background"))
         }
+        .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }
 }
 struct ReferenceView_Previews: PreviewProvider {
