@@ -9,10 +9,16 @@ import SwiftUI
 
 struct tets: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        for babagala in {s; in
+            ForEach(i.allcases, \.self){a in Text(a.description)
+            }
+        }
     }
 }
-
-#Preview {
-    tets()
+struct tets_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+        tets()
+        }
+    }
 }

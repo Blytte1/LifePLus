@@ -6,11 +6,6 @@
 //
 
 import SwiftUI
-
-
-
-
-
 struct NameView: View {
     var user:User
     @State var nameViewModel = NameViewModel()
@@ -30,12 +25,7 @@ struct NameView: View {
                 
             VStack(alignment:.leading) {
                 
-                Text("Insira seu nome:")
-                    .padding(5)
-                TextField("Digite aqui", text: $nameViewModel.user.name)
-                   .textFieldStyle(.roundedBorder)
-                    .keyboardType(.alphabet)
-                    .padding(5)
+               
                 HStack{
                     Text("Qual sua idade?")
                     Picker("Idade", selection: ($nameViewModel.user.age)) {

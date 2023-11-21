@@ -13,5 +13,5 @@ enum Screen:Hashable{
     case name(User)
     case content(User)
     case report(User)
-    case question(User,Question)
+    case transition(User)
 }

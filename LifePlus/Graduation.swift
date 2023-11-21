@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Graduation: Int, CaseIterable{
+enum Graduation:Double, CaseIterable{
     case bachelor = 1
     case professional = 2
     case no = 0

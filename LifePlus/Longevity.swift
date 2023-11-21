@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Longevity :Int, CaseIterable{
+enum Longevity :Double, CaseIterable{
     case yes = 6
     case no = 0
 }

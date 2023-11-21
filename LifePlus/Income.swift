@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Income:Int, CaseIterable{
+enum Income:Double, CaseIterable{
     case yes = -2
     case no = 0
 }

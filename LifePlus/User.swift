@@ -10,9 +10,8 @@ import Foundation
 struct User:Hashable, Identifiable{
     var id = UUID()
     var lifeExpectancy: LifeExpectancy
-    var age: Int
-    var name: String
-    var finalLifeExpectancy:Int{
+    var age: Double
+    var finalLifeExpectancy:Double{
         lifeExpectancy.totalLifeExpectancy-age
     }
     var language: String

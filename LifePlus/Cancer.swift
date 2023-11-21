@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Cancer:Int, CaseIterable{
+enum Cancer:Double, CaseIterable{
     case yes = -3
     case no = 0
 }

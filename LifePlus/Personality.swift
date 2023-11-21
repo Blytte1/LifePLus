@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Personality:Int, CaseIterable{
+enum Personality: Double, CaseIterable{
     case calm = 3
     case intense = -3
     case outgoing = 1

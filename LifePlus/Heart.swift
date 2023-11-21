@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Heart:Int, CaseIterable{
+enum Heart:Double, CaseIterable{
     case yes = -4
     case no = 0
 }

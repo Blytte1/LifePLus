@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum City:Int, CaseIterable{
+enum City:Double, CaseIterable{
     case less10k = 2
     case between10kand2kk = 0
     case over2kk = -2

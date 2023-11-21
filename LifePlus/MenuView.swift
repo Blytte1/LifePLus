@@ -24,7 +24,6 @@ struct MenuView: View {
           
             List {
                 NavigationLink("Referências", destination: ReferenceView())
-                NavigationLink("Créditos", destination: CreditsView())
                 NavigationLink("Anuncie conosco!",destination: BusinessView())
             }
             .frame(height: 180)

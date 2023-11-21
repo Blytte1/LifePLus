@@ -20,7 +20,7 @@ struct Loading: View {
                 .scaledToFit()
                 .rotation3DEffect(
                     .degrees(loadingViewModel.rotation), axis: (x:0, y: 1, z:0))
-                .scaleEffect(loadingViewModel.scale)
+                //.scaleEffect(loadingViewModel.scale)
                 .frame(maxWidth:.infinity, maxHeight: .infinity)
                 .onAppear() {
                     
@@ -28,7 +28,7 @@ struct Loading: View {
                         withAnimation (.easeInOut(duration: 3)){
                         loadingViewModel.scale = 1
                             loadingViewModel.rotation = 360
-                            DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+                            DispatchQueue.main.asyncAfter(deadline: .now()+1.5) {
                                 contentViewModel.path.append(.intro)
                             }
                         }

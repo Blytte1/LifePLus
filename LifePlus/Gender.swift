@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum  Gender:Int,CaseIterable{
+enum  Gender: Double,CaseIterable{
     case female = 4
     case male = -3
 }

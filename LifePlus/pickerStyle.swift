@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-struct PickerView:ViewModifier{
+struct PickerStyle:ViewModifier{
 let tag:Double
     func body(content: Content) -> some View{
         content
        
-            .foregroundStyle(Color("textBox"))
+            .foregroundStyle(.white)
         .fontWeight(.heavy)
         .tag(0)
         .padding(3)

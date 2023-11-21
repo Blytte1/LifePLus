@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Grandparents:Int, CaseIterable{
+enum Grandparents:Double, CaseIterable{
     case yes = 2
     case no = 0
 }

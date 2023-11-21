@@ -10,21 +10,15 @@ import Foundation
 struct Question: Identifiable, Equatable, Hashable{
     let id = UUID()
     var question: String
-    var answerValue: Int
+    var answerValue: Double
     var answerDescription: String
     var questionImageUrl: String
     var tag: Int
     var categories: Categories
-    var explanation: String
-    var recommendation: String
-    var recommendationImage: String
-    var recommendationTag: String
-    var recommendationPrice:String
     var recommendationLink:String 
 }
 
 enum Categories:String, Hashable{
-
     case demografic
     case hereditary
     case habit

@@ -18,66 +18,50 @@ struct AnswerView: View {
     @State var user: User
     
     var body: some View {
-        VStack {
-           
-            Text("Clique nas perguntas para ver as dicas")
-                .fontWeight(.black)
-            ScrollView {
-                VStack (alignment:.center){
-                    ForEach(user.lifeExpectancy.questions){
-                            question in
-                            Button{
-                                reportViewModel = ReportViewModel(question: question)
-                                reportViewModel?.isActive.toggle()
-                            }label:{
-                                VStack(alignment: .leading, spacing:5){
-                                    Text(LocalizedStringKey(question.question))
-                                        .foregroundStyle(.white)
-                                        .fontWeight(.bold)
-                                    HStack {
-                                        Text("\(question.answerValue) anos ")
-                                            .shadow(radius: 10)
-                                        Spacer()
-                                        Image(systemName:"arrow.up.square")
-                                            .rotationEffect(Angle(degrees: 360))
-                                            .animation(
-                                                .interpolatingSpring
-                                                .repeatForever(autoreverses: false)
-                                                ,value: answerViewModel.isActive
-                                            )
-                                    }
-                                    .foregroundColor( Color("textColor"))
-                                    .fontWeight(.semibold)
+      
+
+        ScrollView {
+
+                ForEach(user.lifeExpectancy.questions){
+                        question in
+                        
+                            VStack(alignment:.leading,spacing:5){
+                                Text(LocalizedStringKey(question.question))
+                                    .multilineTextAlignment(.leading)
+                                    .foregroundStyle(.white)
+                                    .fontWeight(.bold)
+                                HStack {
+                                    Text("Resposta:")
+                                    Text(question.answerDescription)
                                 }
-                               
-                                .padding(10)
-                                .background{
-                                    if question.answerValue >= 0{
-                                        Color("textBox")
-                                    }else{
-                                        Color.pink
-                                            .opacity(0.7)
-                                    }
+                                HStack {
+                                    Text(question.answerValue > 0 ? "Impacto na saúde: +": "Impacto na saúde:")
+                                    Text(question.answerValue, format:.number)
+                                    Text("Anos")
+                                    .foregroundColor(Color("textColor"))
                                 }
-                                .cornerRadius(15)
-                                .padding(10)
-                                .cornerRadius(10)
                             }
-                            
-                            
-                        }
-                    
-                }
-                .sheet(item: $reportViewModel){model in QuestionView( user: user, question: model.question)
-                }
-                .frame(maxWidth:.infinity)
+                            .fontWeight(.semibold)
+                            .padding(5)
+                            .frame(width:350,alignment:.leading)
+                            .background{
+                                if question.answerValue >= 0{
+                                    Color("textBox")
+                                }else{
+                                    Color.pink
+                                    .opacity(0.7)
+                                }
+                            }
+                            .cornerRadius(13)
+                        
             }
+            
         }
         .background{
             Image("Wallpaper")
                 .resizable()
                 .scaledToFill()
-                .opacity(0.05)
+                .opacity(0.05) 
                 .ignoresSafeArea()
                 .background(Color("background"))
         }

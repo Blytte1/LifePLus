@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Alcoholic:Int, CaseIterable{
+enum Alcoholic: Double, CaseIterable{
     case yes = -1
     case no = 0
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Smoker: Int, CaseIterable{
+enum Smoker: Double, CaseIterable{
     case overtwo = -8
     case two = -6
     case one = -3

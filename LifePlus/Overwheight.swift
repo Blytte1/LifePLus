@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OverWeight:Int, CaseIterable{
+enum OverWeight: Double, CaseIterable{
     case over15 = -8
     case until15 = -4
     case under = -2

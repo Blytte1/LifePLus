@@ -23,7 +23,11 @@
         }
       }
     },
+    " %lf anos de vida." : {
+
+    },
     " %lld anos de vida." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -45,7 +49,11 @@
         }
       }
     },
+    " + %lf anos de vida." : {
+
+    },
     " + %lld anos de vida." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -66,6 +74,9 @@
           }
         }
       }
+    },
+    "%@" : {
+
     },
     "%lld" : {
       "localizations" : {
@@ -90,6 +101,7 @@
       }
     },
     "%lld anos " : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -111,7 +123,11 @@
         }
       }
     },
+    "+" : {
+
+    },
     "Adson Diniz & Roberto Mascarenhas" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -155,6 +171,12 @@
           }
         }
       }
+    },
+    "Análise concluída. Toque o botão acima e acesse seus resultados." : {
+
+    },
+    "anos" : {
+
     },
     "Anos" : {
       "localizations" : {
@@ -267,6 +289,9 @@
         }
       }
     },
+    "Atenção: você está abaixo da média da população de %@!" : {
+
+    },
     "Bem-vindo ao LifePlus!" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -289,6 +314,9 @@
           }
         }
       }
+    },
+    "Calculando" : {
+
     },
     "Clique na imagem para mandar uma mensagem." : {
       "localizations" : {
@@ -313,6 +341,7 @@
       }
     },
     "Clique nas perguntas para ver as dicas" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -334,7 +363,11 @@
         }
       }
     },
+    "Comparando dados com a média da expectativa de vida de seu país." : {
+
+    },
     "Créditos" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -396,6 +429,7 @@
       }
     },
     "Desenvolvedores:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -440,6 +474,7 @@
       }
     },
     "Digite aqui" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -462,6 +497,7 @@
       }
     },
     "Direito sobre Imagens" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -561,7 +597,11 @@
         }
       }
     },
+    "Expectativa de vida do país:" : {
+
+    },
     "Expectativa de vida total: %lld anos." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -582,6 +622,9 @@
           }
         }
       }
+    },
+    "Expectativa Pessoal:" : {
+
     },
     "Extrovertido" : {
       "extractionState" : "manual",
@@ -618,6 +661,7 @@
       }
     },
     "freePick.com" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -661,7 +705,11 @@
         }
       }
     },
+    "Idade:" : {
+
+    },
     "Idade: %lld anos" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -728,6 +776,7 @@
       }
     },
     "Insira seu nome:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -914,6 +963,7 @@
       }
     },
     "Nome: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -936,6 +986,7 @@
       }
     },
     "País: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -956,6 +1007,12 @@
           }
         }
       }
+    },
+    "Parabéns, você está dentro da média de expectativa de vida para %@." : {
+
+    },
+    "Parabéns, você superou a expectativa de vida média do seu país!" : {
+
     },
     "Passa muitas horas sentado ou exerce trabalho pesado?" : {
       "extractionState" : "manual",
@@ -1001,6 +1058,9 @@
           }
         }
       }
+    },
+    "Processando dados recebidos." : {
+
     },
     "Qual a população aproximada da cidade onde você vive?" : {
       "extractionState" : "manual",
@@ -1138,6 +1198,7 @@
       }
     },
     "Report" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1181,6 +1242,9 @@
           }
         }
       }
+    },
+    "Resposta:" : {
+
     },
     "Resposta: " : {
       "localizations" : {
@@ -1310,6 +1374,7 @@
       }
     },
     "Setings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1331,7 +1396,11 @@
         }
       }
     },
+    "Sexo:" : {
+
+    },
     "Sexo: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1686,6 +1755,9 @@
           }
         }
       }
+    },
+    "Viva" : {
+
     },
     "Viva +" : {
       "localizations" : {

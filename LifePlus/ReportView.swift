@@ -15,22 +15,16 @@ struct ReportView: View {
     let user:User
     var body: some View {
         
-        TabView {
-          
-            AnswerView( user: user)
-                .tabItem {
-                    Image(systemName:"doc.text")
-                    Text("Report")
-                        .environment(\.locale, .init(identifier: contentViewModel.user.language))
-                }
-            MenuView()
-                .tabItem {
-                    Text("Setings")
-                    Image(systemName: "heart.fill")
-                }
-                .background(.white)
+        VStack {
+            Header1View(user: user)
+                .padding()
+            Text("Respostas e valores:")
+                .font(.title2)
+            ScrollView {
+                AnswerView( user: user)
+            }
         }
-        .navigationBarBackButtonHidden(true)
+        
         .background{
             Image("Wallpaper")
                 .resizable()
@@ -39,8 +33,9 @@ struct ReportView: View {
                 .ignoresSafeArea()
                 .background(Color("background"))
         }
-        .tabViewStyle(.automatic)
         .environment(\.locale, .init(identifier: contentViewModel.user.language))
+       // .navigationTitle("Resultados")
+        .navigationBarBackButtonHidden(true)
     }
 }
 struct ReportView_Previews: PreviewProvider {

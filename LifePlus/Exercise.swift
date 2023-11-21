@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Exercise:Int, CaseIterable{
+enum Exercise:Double, CaseIterable{
     case five = 4
     case three = 2
     case zero = 0

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Lonely: Int, CaseIterable{
+enum Lonely:Double, CaseIterable{
     case decade = -3
     case decade2 = -6
     case decade3 = -9

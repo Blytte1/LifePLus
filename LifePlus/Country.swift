@@ -7,7 +7,7 @@
 
 import Foundation
 
-var mama = (first: "bla", second: "la", Gala: 23)
+
 
 enum Country: String, CaseIterable, Identifiable {
     var id: Country{self}

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-enum Checkups:Int, CaseIterable{
+enum Checkups: Double, CaseIterable{
     case yes = 2
     case no = 0
 }

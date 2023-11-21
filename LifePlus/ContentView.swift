@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//import GoogleMobileAds
 
 
 struct ContentView: View {
@@ -15,77 +15,8 @@ struct ContentView: View {
     private let dotAppearance = UIPageControl.appearance()
     var body: some View {
         VStack {
-            
-            ZStack(alignment:.trailing){
-                Rectangle()
-                    .stroke(lineWidth:10)
-                    .fill(Color("textBox"))
-                
-                HStack {
-                    //Expectativa e vida restante
-                    VStack (alignment:.center, spacing:0){
-                        
-                        Text("Viva +")
-                            .foregroundStyle(Color("textBox"))
-                            .font(.system(size: 60))
-                            .fontWeight(.black)
-                            .padding(2)
-                    }
-                    
-                    //MARK: - Numero de anos
-                    ZStack{
-                        Rectangle()
-                            .fill(Color("textBox"))
-                            .frame(width:130, height: 110)
-                            .cornerRadius(10)
-                            .padding(.horizontal,10)
-                        
-                        VStack (spacing:-10){
-                            Text( "\(contentViewModel.user.lifeExpectancy.totalLifeExpectancy - contentViewModel.user.age)")
-                                .font(.system(size: 60))
-                            Text("Anos")
-                                .font(.system(size: 30))
-                        }
-                        .foregroundStyle(.white)
-                        .rotation3DEffect(
-                            Angle(degrees: contentViewModel.rotation),
-                            axis: (x:0,y:1,z:0))
-                    }
-                    
-                    //rotação do placar de anos
-                    .rotation3DEffect(
-                        .degrees(contentViewModel.rotation),
-                        axis: (x:0,y:1,z:0)
-                    )
-                    
-                    .animation(
-                        .easeIn(duration: 0.5),
-                        value: contentViewModel.rotation
-                    )
-                }
-                .rotation3DEffect(
-                    .degrees(-360),
-                    axis: (1, 0,0)
-                )
-                
-                .foregroundColor(.accentColor)
-            }
-            .animation(
-                .easeInOut(duration: 1),
-                value: contentViewModel.user.finalLifeExpectancy
-            )
-            .frame(
-                
-                maxWidth:.infinity
-                , maxHeight:140
-            )
-            
-            .cornerRadius(10)
-            .padding(.bottom,5)
-            .padding(.horizontal)
-            .shadow(radius: 20)
-            
-            //MARK:  TABVIEW
+            LifeScoreView(contentViewModel:_contentViewModel, user: user)
+         
             TabView (selection:$contentViewModel.pageIndex){
                 withAnimation(.easeIn) {
                     ForEach(contentViewModel.user.lifeExpectancy.questions, id:\.self){
@@ -97,7 +28,6 @@ struct ContentView: View {
                                 description: contentViewModel.description
                             )
                             .cornerRadius(20)
-                            .background(.black)
                         }
                         .tag(question.tag)
                     }
@@ -108,7 +38,7 @@ struct ContentView: View {
                 .easeInOut(duration: 1),
                 value: contentViewModel.pageIndex
             )
-            .padding(.vertical)
+           
             .indexViewStyle(
                 .page(backgroundDisplayMode: .never)
             )
@@ -116,7 +46,6 @@ struct ContentView: View {
             .tabViewStyle(.page)
             .navigationBarBackButtonHidden(true)
         }
-        
         .background{
             Image("Wallpaper")
                 .resizable()
@@ -126,8 +55,8 @@ struct ContentView: View {
                 .background(Color("background"))
         }
         .onAppear(){
-            dotAppearance.currentPageIndicatorTintColor = .red
-            dotAppearance.pageIndicatorTintColor = .cyan
+            dotAppearance.currentPageIndicatorTintColor = .clear
+            dotAppearance.pageIndicatorTintColor = .opaqueSeparator
         }
         .environment(\.locale, .init(identifier: contentViewModel.user.language))
     }

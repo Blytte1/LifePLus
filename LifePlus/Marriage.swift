@@ -6,11 +6,11 @@
 //
 
 import Foundation
-enum Married:Double, CaseIterable{
+enum Marriage:Double, CaseIterable{
     case yes = 5
     case no = 0
 }
-extension Married:CustomStringConvertible, Identifiable{
+extension Marriage:CustomStringConvertible, Identifiable{
     var id: Self{self}
     var description: String{
         switch self{

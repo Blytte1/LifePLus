@@ -6,7 +6,7 @@
 //
 
 import Foundation
-enum Workover65:Int, CaseIterable{
+enum Workover65:Double, CaseIterable{
     case yes = 3
     case no = 0
 }

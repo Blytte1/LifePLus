@@ -16,7 +16,7 @@ struct LifePlusApp: App {
             
             NavigationStack(path: $contentViewModel.path) {
                 
-                Loading()
+                IntroView()
                     .environmentObject(contentViewModel)
                     .navigationDestination(for: Screen.self){
                         screen in switch screen{
@@ -35,8 +35,8 @@ struct LifePlusApp: App {
                             ReportView(user: user)
                                 .environmentObject(contentViewModel)
                             
-                        case .question(let user, let question):
-                            QuestionView(user:user,question:question)
+                        case .transition(let user):
+                            TransitionView(user:user)
                                 .environmentObject(contentViewModel)
                             
                         case .name(let user):

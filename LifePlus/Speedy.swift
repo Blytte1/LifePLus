@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Speedy:Int, CaseIterable{
+enum Speedy: Double, CaseIterable{
     case yes = -1
     case no = 0
 

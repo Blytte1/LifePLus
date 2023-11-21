@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Work: Int, CaseIterable{
+enum Work:Double, CaseIterable{
     case yes = -3
     case no = 0
 }
