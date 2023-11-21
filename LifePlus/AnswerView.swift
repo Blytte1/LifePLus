@@ -11,16 +11,15 @@ import SwiftUI
 
 
 struct AnswerView: View {
+    
     @State var answerViewModel = AnswersViewModel()
     @EnvironmentObject var contentViewModel: ContentViewModel
     @State var reportViewModel: ReportViewModel? = nil
+    @State var user: User
     
-    @State var user:User
     var body: some View {
         VStack {
-            
-            UserCard(user:$user)
-                .padding(.vertical)
+           
             Text("Clique nas perguntas para ver as dicas")
                 .fontWeight(.black)
             ScrollView {
