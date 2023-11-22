@@ -1,82 +1,38 @@
 {
   "sourceLanguage" : "pt-BR",
   "strings" : {
-    "      %@" : {
+    "\"Digita mensagens no celular enquanto dirige?\"" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "      %@"
+            "value" : "Do you type messages on your cell phone while driving?"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "      %@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "      %@"
-          }
-        }
-      }
-    },
-    " %lf anos de vida." : {
-
-    },
-    " %lld anos de vida." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " %lld Years left."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "\n%lld años de vida."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " %lld anos de vida."
-          }
-        }
-      }
-    },
-    " + %lf anos de vida." : {
-
-    },
-    " + %lld anos de vida." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " + %lld years left."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "+ %lld años de vida."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " + %lld anos de vida."
+            "value" : "¿Podrías correr o bajar escaleras en caso de emergencia?"
           }
         }
       }
     },
     "%@" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
     },
     "%lld" : {
       "localizations" : {
@@ -100,83 +56,260 @@
         }
       }
     },
-    "%lld anos " : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld years "
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "\n%lld años"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld anos "
-          }
-        }
-      }
-    },
     "+" : {
-
-    },
-    "Adson Diniz & Roberto Mascarenhas" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adson Diniz & Roberto Mascarenhas"
+            "value" : "+"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adson Diniz & Roberto Mascarenhas"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Adson Diniz & Roberto Mascarenhas"
+            "value" : "+"
           }
         }
       }
     },
-    "Algum parente morreu de doença cardiovascular antes dos 50 anos?" : {
+    "+55-61 9-8160-1001" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "+55-61 99559-6812" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+55-61 99559-6812"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+55-61 99559-6812"
+          }
+        }
+      }
+    },
+    "adinizb@gmail.com    " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "Afeganistão 🇦🇫" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Did any relative die of cardiovascular disease before the age of 50?"
+            "value" : "Afghanistan 🇦🇫"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¿Algún familiar murió por enfermedad cardiovascular antes de los 50 años?"
+            "value" : "Afganistán 🇦🇫"
+          }
+        }
+      }
+    },
+    "África do Sul 🇿🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "South Africa 🇿🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudáfrica 🇿🇦"
+          }
+        }
+      }
+    },
+    "Albânia 🇦🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Albania 🇦🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Albania 🇦🇱"
+          }
+        }
+      }
+    },
+    "Alemanha 🇩🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Germany 🇩🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alemania 🇩🇪"
+          }
+        }
+      }
+    },
+    "Algum parente próximo seu morreu devido a doença cardiovascular antes dos 50 anos de idade?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Did any close relatives of yours die due to cardiovascular disease before the age of 50?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Algún pariente cercano murió de una enfermedad cardiovascular antes de los 50 años?"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Algum parente morreu de doença cardiovascular antes dos 50 anos?"
+            "value" : "Algum parente próximo seu morreu devido a doença cardiovascular antes dos 50 anos de idade?"
           }
         }
       }
     },
-    "Análise concluída. Toque o botão acima e acesse seus resultados." : {
-
+    "Algum parente seu está ou já foi envolvido em algum crime?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is any of your relatives or has ever been involved in a crime?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Algún pariente suyo está o ha estado involucrado en algún delito?"
+          }
+        }
+      }
+    },
+    "Análise concluída. Acessando os seus resultados." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analysis completed. Proceeding to results."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Análisis completado. Accediendo a sus resultados."
+          }
+        }
+      }
+    },
+    "Anda de bicicleta em vias onde transitam carros?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you ride your bike on roads where cars travel?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Montas en bicicleta por carreteras por donde pasan coches?"
+          }
+        }
+      }
+    },
+    "Angola 🇦🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angola 🇦🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angola 🇦🇴"
+          }
+        }
+      }
+    },
+    "ano" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "year"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "año"
+          }
+        }
+      }
     },
     "anos" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "years"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "años"
+          }
+        }
+      }
     },
     "Anos" : {
       "localizations" : {
@@ -200,46 +333,35 @@
         }
       }
     },
-    "Anuncie Conosco" : {
+    "Anuncie conosco!" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Advertise with Us!"
+            "value" : "Advertise with us!"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡Publicidad con nosotros!"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anuncie conosco!"
+            "value" : "¡Anuncie con nosotros!"
           }
         }
       }
     },
-    "Anuncie conosco!" : {
+    "Anuncie Conosco!" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Contact Us"
+            "value" : "Advertise With Us!"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\n¡Publicidad con nosotros!"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anuncie conosco!"
+            "value" : "¡Anuncie con nosotros!"
           }
         }
       }
@@ -267,6 +389,91 @@
         }
       }
     },
+    "Arábia Saudita 🇸🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saudi Arabia 🇸🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arabia Saudita 🇸🇦"
+          }
+        }
+      }
+    },
+    "Argélia 🇩🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algeria 🇩🇿"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argelia 🇩🇿"
+          }
+        }
+      }
+    },
+    "Argentina 🇦🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argentina 🇦🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argentina 🇦🇷"
+          }
+        }
+      }
+    },
+    "Armênia 🇦🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armenia 🇦🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armenia 🇦🇲"
+          }
+        }
+      }
+    },
+    "As vias perto de sua casa ou do trabalho são mal iluminadas?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are the roads near your home or work poorly lit?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Las carreteras cercanas a su casa o trabajo están mal iluminadas?"
+          }
+        }
+      }
+    },
     "Atenção: esse app não tem fins medicinais. Para maiores informações o médico deverá ser consultado." : {
       "localizations" : {
         "en" : {
@@ -289,8 +496,130 @@
         }
       }
     },
-    "Atenção: você está abaixo da média da população de %@!" : {
-
+    "Atenção: você está abaixo da média da população do seu país, considere rever seus hábitos urgentemente!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attention: you are below the average of the population of your country, consider reviewing your habits urgently!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atención: está por debajo de la media de la población de su país, ¡considere revisar sus hábitos urgentemente!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atenção: você está abaixo da média da população do seu país, considere rever seus hábitos urgentemente!"
+          }
+        }
+      }
+    },
+    "Austrália 🇦🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Australia 🇦🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Australia 🇦🇺"
+          }
+        }
+      }
+    },
+    "Áustria 🇦🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Austria 🇦🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Austria 🇦🇹"
+          }
+        }
+      }
+    },
+    "Azerbaijão 🇦🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azerbaijan 🇦🇿"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azerbaiyán 🇦🇿"
+          }
+        }
+      }
+    },
+    "Bacharel, ou equivalente" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bachelor's degree, or equivalent"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Licenciatura o equivalente"
+          }
+        }
+      }
+    },
+    "Bangladesh 🇧🇩" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangladesh 🇧🇩"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bangladesh 🇧🇩"
+          }
+        }
+      }
+    },
+    "Bélgica 🇧🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belgium 🇧🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belgium 🇧🇪"
+          }
+        }
+      }
     },
     "Bem-vindo ao LifePlus!" : {
       "extractionState" : "manual",
@@ -315,76 +644,492 @@
         }
       }
     },
-    "Calculando" : {
-
-    },
-    "Clique na imagem para mandar uma mensagem." : {
+    "Bermudas 🇧🇲" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap the logo to send Us a message."
+            "value" : "Bermudas 🇧🇲"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Clique na imagem para mandar uma mensagem."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clique na imagem para mandar uma mensagem."
+            "value" : "Bermudas 🇧🇲"
           }
         }
       }
     },
-    "Clique nas perguntas para ver as dicas" : {
-      "extractionState" : "stale",
+    "blytte@gmail.com    " : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap the questions to see a health tip."
+            "value" : "blytte@gmail.com    "
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haz clic en las preguntas para ver los consejos."
+            "value" : "blytte@gmail.com    "
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Bolívia 🇧🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Clique nas perguntas para ver as dicas"
+            "value" : "Bolivia 🇧🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolivia 🇧🇴"
+          }
+        }
+      }
+    },
+    "Brasil 🇧🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brazil 🇧🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brasil 🇧🇷"
+          }
+        }
+      }
+    },
+    "Burundi 🇧🇮" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burundi 🇧🇮"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burundi 🇧🇮"
+          }
+        }
+      }
+    },
+    "Cabo Verde 🇨🇻" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cape Verde 🇨🇻"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cabo Verde 🇨🇻"
+          }
+        }
+      }
+    },
+    "Calculando" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculating"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculando"
+          }
+        }
+      }
+    },
+    "Camarões 🇨🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cameroon 🇨🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camerún 🇨🇲"
+          }
+        }
+      }
+    },
+    "Camboja 🇰🇭" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camboja 🇰🇭"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camboja 🇰🇭"
+          }
+        }
+      }
+    },
+    "Canadá 🇨🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canada 🇨🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canadá 🇨🇦"
+          }
+        }
+      }
+    },
+    "Cazaquistão 🇰🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kazakhstan 🇰🇿"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kazajstán 🇰🇿"
+          }
+        }
+      }
+    },
+    "Centro-Africana 🇨🇫" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Central African 🇨🇫"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Centroafricana 🇨🇫"
+          }
+        }
+      }
+    },
+    "Chade 🇹🇩" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chad 🇹🇩"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chade 🇹🇩"
+          }
+        }
+      }
+    },
+    "Chile 🇨🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chile 🇨🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chile 🇨🇱"
+          }
+        }
+      }
+    },
+    "China 🇨🇳" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "China 🇨🇳"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "China 🇨🇳"
+          }
+        }
+      }
+    },
+    "Chipre 🇨🇾" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cyprus 🇨🇾"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chipre 🇨🇾"
+          }
+        }
+      }
+    },
+    "Cingapura 🇸🇬" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cingapura 🇸🇬"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cingapura 🇸🇬"
+          }
+        }
+      }
+    },
+    "Colômbia 🇨🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colombia 🇨🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colombia 🇨🇴"
           }
         }
       }
     },
     "Comparando dados com a média da expectativa de vida de seu país." : {
-
-    },
-    "Créditos" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Credits"
+            "value" : "Comparing data with the average life expectancy in your country."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Créditos"
+            "value" : "Comparando datos con la esperanza de vida media en tu país."
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Congo 🇨🇩" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Créditos"
+            "value" : "Congo 🇨🇩"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Congo 🇨🇩"
+          }
+        }
+      }
+    },
+    "Coréia do Norte 🇰🇵" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "North Korea 🇰🇵"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corea del Norte 🇰🇵"
+          }
+        }
+      }
+    },
+    "Coréia do Sul 🇰🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "South Korea 🇰🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corea del Sur 🇰🇷"
+          }
+        }
+      }
+    },
+    "Costa do Marfim 🇨🇮" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ivory Coast 🇨🇮"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costa de Marfil 🇨🇮"
+          }
+        }
+      }
+    },
+    "Costa Rica 🇨🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costa Rica 🇨🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Costa Rica 🇨🇷"
+          }
+        }
+      }
+    },
+    "Costuma exercitar-se com qual frequência?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How often do you exercise?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cada cuanto te ejercitas?"
+          }
+        }
+      }
+    },
+    "Costuma transitar por grandes centros no período noturno?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you usually travel through large centers at night?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Viajas habitualmente por las grandes ciudades de noche?"
+          }
+        }
+      }
+    },
+    "Costuma viajar em aviões pequenos?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you usually travel on small planes?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Viajas habitualmente en avionetas?"
+          }
+        }
+      }
+    },
+    "Croácia 🇭🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Croatia 🇭🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Croacia 🇭🇷"
+          }
+        }
+      }
+    },
+    "Cuba 🇨🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuba 🇨🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuba 🇨🇺"
           }
         }
       }
@@ -428,93 +1173,104 @@
         }
       }
     },
-    "Desenvolvedores:" : {
-      "extractionState" : "stale",
+    "Digita mensagens no celular enquanto dirige?" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developers"
+            "value" : "Do you text and drive?"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desarrolladores:"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Desenvolvedores:"
+            "value" : "¿Escribe mensajes en su teléfono celular mientras conduce?"
           }
         }
       }
     },
-    "Dica:" : {
+    "Dinamarca 🇩🇰" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tip:"
+            "value" : "Denmark 🇩🇰"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Consejo:"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dica:"
+            "value" : "Dinamarca 🇩🇰"
           }
         }
       }
     },
-    "Digite aqui" : {
-      "extractionState" : "stale",
+    "Dirige por rodovias com frequência?" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Type here"
+            "value" : "Do you drive on highways frequently?"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Digite aquí"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Digite aqui"
+            "value" : "¿Conduce usted por autopistas con frecuencia?"
           }
         }
       }
     },
-    "Direito sobre Imagens" : {
-      "extractionState" : "stale",
+    "Egito 🇪🇬" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Image Rights"
+            "value" : "Egypt 🇪🇬"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Derecho a las imágenes"
+            "value" : "Egipto 🇪🇬"
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "El Salvador 🇸🇻" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Direito sobre Imagens"
+            "value" : "El Salvador 🇸🇻"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El Salvador 🇸🇻"
+          }
+        }
+      }
+    },
+    "Em sua residência há câmeras de segurança, ou serviços de vigilância?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are there security cameras or surveillance services in your home?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿En su residencia hay cámaras de seguridad o servicios de vigilancia?"
           }
         }
       }
@@ -558,6 +1314,23 @@
         }
       }
     },
+    "Ensino médio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High school"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuela secundaria"
+          }
+        }
+      }
+    },
     "Entre você, seus pais ou irmãos houve algum caso de câncer, diabetes tipo 1 ou doença do coração?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -571,6 +1344,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Ha habido algún caso de cáncer, diabetes tipo 1 o enfermedad cardíaca entre ti, tus padres o hermanos?"
+          }
+        }
+      }
+    },
+    "Espanha 🇪🇸" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spain 🇪🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "España 🇪🇸"
           }
         }
       }
@@ -597,34 +1387,111 @@
         }
       }
     },
-    "Expectativa de vida do país:" : {
-
-    },
-    "Expectativa de vida total: %lld anos." : {
-      "extractionState" : "stale",
+    "Estados Unidos 🇺🇸" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Total life Expectancy: %lld years old."
+            "value" : "United States 🇺🇸"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esperanza de vida total: %lld años."
+            "value" : "United States 🇺🇸"
+          }
+        }
+      }
+    },
+    "Estônia 🇪🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estonia 🇪🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estonia 🇪🇪"
+          }
+        }
+      }
+    },
+    "Etiópia 🇪🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ethiopia 🇪🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiopía 🇪🇹"
+          }
+        }
+      }
+    },
+    "Exerce algum trabalho pesado?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you do any heavy labor?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Haces algún trabajo pesado?"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Expectativa de vida total: %lld anos."
+            "value" : "Exerce algum trabalho pesado?"
           }
         }
       }
     },
-    "Expectativa Pessoal:" : {
-
+    "Expectativa de vida do país:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Country life expectancy:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperanza de vida en el país:"
+          }
+        }
+      }
+    },
+    "Expectativa de vida:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Life expectancy:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expectativa de vida:"
+          }
+        }
+      }
     },
     "Extrovertido" : {
       "extractionState" : "manual",
@@ -660,30 +1527,182 @@
         }
       }
     },
-    "freePick.com" : {
-      "extractionState" : "stale",
+    "Fundamental" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "freePick.com"
+            "value" : "Elementary"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "freePick.com"
+            "value" : "Escuela Primaria"
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Gana 🇬🇭" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "freePick.com"
+            "value" : "Ghana 🇬🇭"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghana 🇬🇭"
+          }
+        }
+      }
+    },
+    "Geórgia 🇬🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Georgia 🇬🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Georgia 🇬🇪"
+          }
+        }
+      }
+    },
+    "Grécia 🇬🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greece 🇬🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grecia 🇬🇷"
+          }
+        }
+      }
+    },
+    "Guiné Equatorial 🇬🇶" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equatorial Guinea 🇬🇶"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guinea Ecuatorial 🇬🇶"
+          }
+        }
+      }
+    },
+    "Guiné-Bissau 🇬🇼" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guinea-Bissau 🇬🇼"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guinea-Bissau 🇬🇼"
+          }
+        }
+      }
+    },
+    "Haiti 🇭🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haiti 🇭🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haití 🇭🇹"
+          }
+        }
+      }
+    },
+    "Hong Kong 🇭🇰" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hong Kong 🇭🇰"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hong Kong 🇭🇰"
+          }
+        }
+      }
+    },
+    "Hungria 🇭🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hungary 🇭🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hungría 🇭🇺"
           }
         }
       }
     },
     "Idade" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Age:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edad:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idade:"
+          }
+        }
+      }
+    },
+    "Idade:" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -694,39 +1713,24 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Edad"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Idade"
+            "value" : "Edad:"
           }
         }
       }
     },
-    "Idade:" : {
-
-    },
-    "Idade: %lld anos" : {
-      "extractionState" : "stale",
+    "Iêmen 🇾🇪" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Age: %lld years old"
+            "value" : "Yemen 🇾🇪"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Edad: %lld años"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Idade: %lld anos"
+            "value" : "Yemen 🇾🇪"
           }
         }
       }
@@ -753,6 +1757,56 @@
         }
       }
     },
+    "Impacto na saúde: +" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Health impact: +"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impacto en la salud: +"
+          }
+        }
+      }
+    },
+    "Índia 🇮🇳" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "India 🇮🇳"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "India 🇮🇳"
+          }
+        }
+      }
+    },
+    "Indonésia 🇮🇩" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indonesia 🇮🇩"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indonesia 🇮🇩"
+          }
+        }
+      }
+    },
     "Iniciar" : {
       "localizations" : {
         "en" : {
@@ -771,29 +1825,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Iniciar"
-          }
-        }
-      }
-    },
-    "Insira seu nome:" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insert your name:"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Introduzca su nombre:"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insira seu nome:"
           }
         }
       }
@@ -832,6 +1863,244 @@
         }
       }
     },
+    "Irã 🇮🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iran 🇮🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irán 🇮🇷"
+          }
+        }
+      }
+    },
+    "Irlanda 🇮🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ireland 🇮🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Irlanda 🇮🇪"
+          }
+        }
+      }
+    },
+    "Islândia 🇮🇸" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iceland 🇮🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Islandia 🇮🇸"
+          }
+        }
+      }
+    },
+    "Israel 🇮🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Israel 🇮🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Israel 🇮🇱"
+          }
+        }
+      }
+    },
+    "Itália 🇮🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Italy 🇮🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Italia 🇮🇹"
+          }
+        }
+      }
+    },
+    "Jamaica 🇯🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jamaica 🇯🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jamaica 🇯🇲"
+          }
+        }
+      }
+    },
+    "Japão 🇯🇵" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japan 🇯🇵"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Japón 🇯🇵"
+          }
+        }
+      }
+    },
+    "Laos 🇱🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laos 🇱🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laos 🇱🇦"
+          }
+        }
+      }
+    },
+    "Letônia 🇱🇻" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latvia 🇱🇻"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letonia 🇱🇻"
+          }
+        }
+      }
+    },
+    "Liechtenstein 🇱🇮" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liechtenstein 🇱🇮"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liechtenstein 🇱🇮"
+          }
+        }
+      }
+    },
+    "Lituânia 🇱🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lituânia 🇱🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lituania 🇱🇹"
+          }
+        }
+      }
+    },
+    "Luxemburgo 🇱🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luxembourg 🇱🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luxemburgo 🇱🇺"
+          }
+        }
+      }
+    },
+    "Macau 🇲🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macau 🇲🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macao 🇲🇴"
+          }
+        }
+      }
+    },
+    "Madagascar 🇲🇬" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Madagascar 🇲🇬"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Madagascar 🇲🇬"
+          }
+        }
+      }
+    },
     "Mais de 2 milhões de pessoas" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -845,6 +2114,74 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más de 2 millones de personas"
+          }
+        }
+      }
+    },
+    "Malásia 🇲🇾" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malaysia 🇲🇾"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malasia 🇲🇾"
+          }
+        }
+      }
+    },
+    "Mali 🇲🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mali 🇲🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mali 🇲🇱"
+          }
+        }
+      }
+    },
+    "Malta 🇲🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malta 🇲🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malta 🇲🇹"
+          }
+        }
+      }
+    },
+    "Marrocos 🇲🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morocco 🇲🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marrocos 🇲🇦"
           }
         }
       }
@@ -866,6 +2203,23 @@
         }
       }
     },
+    "Maurício 🇲🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mauritius 🇲🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mauricio 🇲🇺"
+          }
+        }
+      }
+    },
     "Menos de 10 mil pessoas" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -879,6 +2233,91 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menos de 10 mil personas"
+          }
+        }
+      }
+    },
+    "México 🇲🇽" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "México 🇲🇽"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mexico 🇲🇽"
+          }
+        }
+      }
+    },
+    "Moçambique 🇲🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mozambique 🇲🇿"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mozambique 🇲🇿"
+          }
+        }
+      }
+    },
+    "Montenegro 🇲🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montenegro 🇲🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Montenegro 🇲🇪"
+          }
+        }
+      }
+    },
+    "Mora em condomínio fechado?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you live in a gated community?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Vives en un condominio cerrado?"
+          }
+        }
+      }
+    },
+    "Mora perto de uma Cracolândia?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you live near a Drug consumption place?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Vives cerca de una Cracolândia?"
           }
         }
       }
@@ -962,57 +2401,360 @@
         }
       }
     },
-    "Nome: %@" : {
-      "extractionState" : "stale",
+    "Nepal 🇳🇵" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Name: %@"
+            "value" : "Nepal 🇳🇵"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nombre: %@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nome: %@"
+            "value" : "Nepal 🇳🇵"
           }
         }
       }
     },
-    "País: %@" : {
-      "extractionState" : "stale",
+    "Níger 🇳🇪" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Country: %@"
+            "value" : "Niger 🇳🇪"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "País: %@"
+            "value" : "Níger 🇳🇪"
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Nigéria 🇳🇬" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "País: %@"
+            "value" : "Nigeria 🇳🇬"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nigeria 🇳🇬"
+          }
+        }
+      }
+    },
+    "Nível fundamental" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middle school or lower"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación primaria"
+          }
+        }
+      }
+    },
+    "Nível médio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High School"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación secundaria"
+          }
+        }
+      }
+    },
+    "Nível superior" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bachelor’s degree or higher"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación superior"
+          }
+        }
+      }
+    },
+    "Nível técnico" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Associates degree"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación vocacional"
+          }
+        }
+      }
+    },
+    "No seu dia a dia, você atravessa vias públicas na faixa de pedestres?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In your daily life, do you cross public roads at pedestrian crossings?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿En su vida diaria cruza la vía pública por pasos de peatones?"
+          }
+        }
+      }
+    },
+    "Noruega 🇳🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Norway 🇳🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noruega 🇳🇴"
+          }
+        }
+      }
+    },
+    "Nova Zelândia 🇳🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Zealand 🇳🇿"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva Zelanda 🇳🇿"
+          }
+        }
+      }
+    },
+    "O local da sua residência corre risco de inundações?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is your place of residence at risk of flooding?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Su lugar de residencia corre riesgo de inundación?"
+          }
+        }
+      }
+    },
+    "Omã 🇴🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oman 🇴🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omán 🇴🇲"
+          }
+        }
+      }
+    },
+    "Países Baixos 🇳🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netherlands 🇳🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Países Bajos 🇳🇱"
+          }
+        }
+      }
+    },
+    "Palestina 🇵🇸" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palestina 🇵🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palestina 🇵🇸"
+          }
+        }
+      }
+    },
+    "Panamá 🇵🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panama 🇵🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panamá 🇵🇦"
+          }
+        }
+      }
+    },
+    "Papua-Nova Guiné 🇵🇬" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papua New Guinea 🇵🇬"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papúa Nueva Guinea 🇵🇬"
+          }
+        }
+      }
+    },
+    "Paquistão 🇵🇰" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakistan 🇵🇰"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakistán 🇵🇰"
           }
         }
       }
     },
     "Parabéns, você está dentro da média de expectativa de vida para %@." : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Congratulations, you are within the average life expectancy for %@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Felicitaciones, estás dentro de la esperanza de vida promedio de %@."
+          }
+        }
+      }
     },
     "Parabéns, você superou a expectativa de vida média do seu país!" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Congratulations, you have surpassed your country's average life expectancy!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Felicitaciones, ha superado la esperanza de vida promedio de su país!"
+          }
+        }
+      }
+    },
+    "Paraguai 🇵🇾" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraguay 🇵🇾"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraguay 🇵🇾"
+          }
+        }
+      }
+    },
+    "Participa de alguma torcida organizada?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you participate in any sports organized fan groups?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Participas en algún grupo de fans organizado?"
+          }
+        }
+      }
     },
     "Passa muitas horas sentado ou exerce trabalho pesado?" : {
       "extractionState" : "manual",
@@ -1033,6 +2775,91 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passa muitas horas sentado ou exerce trabalho pesado?"
+          }
+        }
+      }
+    },
+    "Passa muitas horas sentado?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you spend many hours sitting?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Pasas muchas horas sentado?"
+          }
+        }
+      }
+    },
+    "Peru 🇵🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peru 🇵🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perú 🇵🇪"
+          }
+        }
+      }
+    },
+    "Polônia 🇵🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poland 🇵🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polonia 🇵🇱"
+          }
+        }
+      }
+    },
+    "Porto Rico 🇵🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puerto Rico 🇵🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puerto Rico 🇵🇷"
+          }
+        }
+      }
+    },
+    "Portugal 🇵🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portugal 🇵🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portugal 🇵🇹"
           }
         }
       }
@@ -1059,8 +2886,38 @@
         }
       }
     },
+    "Pratica esportes radicais como canoagem, paraquedismo ou motocross?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you practice extreme sports such as canoeing, parachuting or motocross?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Practicas deportes extremos como piragüismo, paracaidismo o motocross?"
+          }
+        }
+      }
+    },
     "Processando dados recebidos." : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing received data."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Procesamiento de datos recibidos."
+          }
+        }
+      }
     },
     "Qual a população aproximada da cidade onde você vive?" : {
       "extractionState" : "manual",
@@ -1153,6 +3010,23 @@
         }
       }
     },
+    "Quênia 🇰🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenya 🇰🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenia 🇰🇪"
+          }
+        }
+      }
+    },
     "Referências" : {
       "localizations" : {
         "en" : {
@@ -1175,78 +3049,47 @@
         }
       }
     },
-    "Reiniciar Teste" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Restart Test"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reiniciar prueba"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reiniciar Teste"
-          }
-        }
-      }
-    },
-    "Report" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Report"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Report"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Report"
-          }
-        }
-      }
-    },
-    "Responda um breve questionário para receber dicas valiosas que te ajudarão a ter uma vida mais longa e saudável." : {
+    "Reino Unido 🇬🇧" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Answer a short questionnaire to receive valuable tips that will help you live a longer and healthier life."
+            "value" : "United Kingdom 🇬🇧"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Responda un breve cuestionario para recibir valiosos consejos que le ayudarán a vivir una vida más larga y saludable."
+            "value" : "Reino Unido 🇬🇧"
+          }
+        }
+      }
+    },
+    "Reponda algumas questões para identificar quais fatores impactam positivamente e negativamente sua expectativa de vida e tenha uma vida mais longa e saudável" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer some questions to identify which factors impact your life expectancy positively or negatively so you can have a healthier and longer life."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Responda algunas preguntas para identificar qué factores impactan positiva y negativamente su esperanza de vida y vivir una vida más larga y saludable."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Responda um breve questionário para receber dicas valiosas que te ajudarão a ter uma vida mais longa e saudável."
+            "value" : "Reponda algumas questões para identificar quais fatores impactam positivamente e negativamente sua expectativa de vida e tenha uma vida mais longa e saudável."
           }
         }
       }
     },
     "Resposta:" : {
-
-    },
-    "Resposta: " : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1259,11 +3102,140 @@
             "state" : "translated",
             "value" : "Respuesta:"
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Respostas e valores:" : {
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Resposta: "
+            "value" : "Answers and values:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respuestas y valores:"
+          }
+        }
+      }
+    },
+    "Romênia 🇷🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romania 🇷🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rumania 🇷🇴"
+          }
+        }
+      }
+    },
+    "Ruanda 🇷🇼" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rwanda 🇷🇼"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruanda 🇷🇼"
+          }
+        }
+      }
+    },
+    "Rússia 🇷🇺" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Russia 🇷🇺"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rusia 🇷🇺"
+          }
+        }
+      }
+    },
+    "Sabe caçar?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you know how to hunt?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Sabes cazar?"
+          }
+        }
+      }
+    },
+    "Sabe nadar?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you know how to swim?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Sabes nadar?"
+          }
+        }
+      }
+    },
+    "São Marino 🇸🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "San Marino 🇸🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "San Marino 🇸🇲"
+          }
+        }
+      }
+    },
+    "São Tomé e Príncipe 🇸🇹" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao Tome and Principe 🇸🇹"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Santo Tomé y Príncipe 🇸🇹"
           }
         }
       }
@@ -1286,28 +3258,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saúde Brasil - Principais causas de morte no Brasil"
-          }
-        }
-      }
-    },
-    "Selecione o País em que você vive" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select The country you live in"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Seleccione el país en el que vive"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Selecione o País em que você vive"
           }
         }
       }
@@ -1373,51 +3323,86 @@
         }
       }
     },
-    "Setings" : {
-      "extractionState" : "stale",
+    "Senegal 🇸🇳" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Settings"
+            "value" : "Senegal 🇸🇳"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajustes"
+            "value" : "Senegal 🇸🇳"
           }
-        },
-        "pt-BR" : {
+        }
+      }
+    },
+    "Serra Leoa 🇸🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurações"
+            "value" : "Sierra Leone 🇸🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sierra Leona 🇸🇱"
+          }
+        }
+      }
+    },
+    "Sérvia 🇷🇸" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serbia 🇷🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serbia 🇷🇸"
+          }
+        }
+      }
+    },
+    "Seu país está enfrentando algum conflito armado no momento?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is your country facing any armed conflict at the moment?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Su país se enfrenta a algún conflicto armado en este momento?"
           }
         }
       }
     },
     "Sexo:" : {
-
-    },
-    "Sexo: %@" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sex: %@"
+            "value" : "Sex:"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sexo: %@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sexo: %@"
+            "value" : ""
           }
         }
       }
@@ -1445,7 +3430,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yes, above two packs a day\n"
+            "value" : "Yes, above two packs a day"
           }
         },
         "es" : {
@@ -1496,7 +3481,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yes, between 10 and 15 Kg\n"
+            "value" : "Yes, between 10 and 15 Kg"
           }
         },
         "es" : {
@@ -1694,6 +3679,193 @@
         }
       }
     },
+    "Somália 🇸🇴" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Somalia 🇸🇴"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Somalia 🇸🇴"
+          }
+        }
+      }
+    },
+    "Sua atividade profissional exige o porte de armas de fogo?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Does your professional activity require the carrying of firearms?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Su actividad profesional requiere la portación de armas de fuego?"
+          }
+        }
+      }
+    },
+    "Sua dieta é assistida por algum profissional especializado?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is your diet assisted by a specialized professional?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Tu alimentación está asistida por un profesional especializado?"
+          }
+        }
+      }
+    },
+    "Sudão 🇸🇩" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudan 🇸🇩"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudán 🇸🇩"
+          }
+        }
+      }
+    },
+    "Sudão do Sul 🇸🇸" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "South Sudan 🇸🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudán del Sur 🇸🇸"
+          }
+        }
+      }
+    },
+    "Suécia 🇸🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweden 🇸🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suecia 🇸🇪"
+          }
+        }
+      }
+    },
+    "Suíça 🇨🇭" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switzerland 🇨🇭"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suiza 🇨🇭"
+          }
+        }
+      }
+    },
+    "Tailândia 🇹🇭" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thailand 🇹🇭"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tailandia 🇹🇭"
+          }
+        }
+      }
+    },
+    "Tchéquia 🇨🇿" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czechia 🇷🇸"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chequia 🇨🇿"
+          }
+        }
+      }
+    },
+    "Técnólogo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Job specialization"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Técnólogo"
+          }
+        }
+      }
+    },
+    "Tem alguma habilidade com acampamentos?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you have any camping skills?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Tienes alguna habilidad para acampar?"
+          }
+        }
+      }
+    },
     "The World health statistics report 2023, OMS" : {
       "localizations" : {
         "en" : {
@@ -1716,7 +3888,24 @@
         }
       }
     },
-    "Todos os seus avós avós viveram acima de 80 anos?" : {
+    "Timor-Leste 🇹🇱" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "East Timor 🇹🇱"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timor-Leste 🇹🇱"
+          }
+        }
+      }
+    },
+    "Todos os seus avós viveram acima de 80 anos?" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -1734,7 +3923,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Todos os seus avós avós viveram acima de 80 anos?"
+            "value" : "Todos os seus avós viveram acima de 80 anos?"
           }
         }
       }
@@ -1756,8 +3945,140 @@
         }
       }
     },
+    "Turquia 🇹🇷" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turkey 🇹🇷"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turquía 🇹🇷"
+          }
+        }
+      }
+    },
+    "Ucrânia 🇺🇦" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukraine 🇺🇦"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ucrania 🇺🇦"
+          }
+        }
+      }
+    },
+    "Uruguai 🇺🇾" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uruguay 🇺🇾"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uruguay 🇺🇾"
+          }
+        }
+      }
+    },
+    "Usa o cinto de segurança enquanto dirige?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you wear your seat belt while driving?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Usas el cinturón de seguridad mientras conduces?"
+          }
+        }
+      }
+    },
+    "Venezuela 🇻🇪" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venezuela 🇻🇪"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venezuela 🇻🇪"
+          }
+        }
+      }
+    },
+    "Viaja ou pretende viajar em aviões pequenos?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you travel or intend to travel on small planes?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Viaja o tiene intención de viajar en avionetas?"
+          }
+        }
+      }
+    },
+    "Vietnã 🇻🇳" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietnam 🇻🇳"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vietnam 🇻🇳"
+          }
+        }
+      }
+    },
     "Viva" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vive"
+          }
+        }
+      }
     },
     "Viva +" : {
       "localizations" : {
@@ -1800,6 +4121,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você bebe pelo menos o equivalente a uma dose de bebida alcoólica por dia?"
+          }
+        }
+      }
+    },
+    "Você consome algum tipo de droga ilícita?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you consume any type of illicit drug?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Consume algún tipo de droga ilícita?"
+          }
+        }
+      }
+    },
+    "Você costuma caminhar perto de carros em movimento?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you often walk near moving cars?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Camina usted a menudo cerca de coches en movimiento?"
+          }
+        }
+      }
+    },
+    "Você costuma se envolver em brigas?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you usually get involved in fights?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Te metes a menudo en peleas?"
           }
         }
       }
@@ -1896,6 +4268,23 @@
         }
       }
     },
+    "Você frequenta bares ou boates regularmente?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you go to bars or night clubs regularly?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Vas a bares o discotecas con regularidad?"
+          }
+        }
+      }
+    },
     "Você fuma?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1942,6 +4331,91 @@
         }
       }
     },
+    "Você mora em um bairro considerado perigoso?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you live in a neighborhood considered dangerous?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Vives en un barrio considerado peligroso?"
+          }
+        }
+      }
+    },
+    "Você mora próximo a um hospital?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you live near a hospital?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Vives cerca de un hospital?"
+          }
+        }
+      }
+    },
+    "Você pega carona com estranhos ou dá carona para estranhos?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you hitchhike with strangers or give rides to strangers?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Haces autostop con extraños o llevas a extraños?"
+          }
+        }
+      }
+    },
+    "Você pratica alguma atividade de cunho espiritual?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you practice any spiritual related activities?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Practicas alguna actividad espiritual?"
+          }
+        }
+      }
+    },
+    "Você pratica esportes de contato?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you play contact sports?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Practicas deportes de contacto?"
+          }
+        }
+      }
+    },
     "Você recebe acima de R$50 mil ao ano?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1961,6 +4435,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você recebe acima de R$50 mil ao ano?"
+          }
+        }
+      }
+    },
+    "Você recebe o equivalente a 10 ou mais salários mínimos ao mês?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you earn the equivalent of 10 or more minimum wages per month?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Recibe el equivalente a 10 o más salarios mínimos mensuales?"
           }
         }
       }
@@ -1988,6 +4479,40 @@
         }
       }
     },
+    "Você se considera uma pessoa caseira?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you consider yourself a homebody person?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Te consideras una persona hogareña?"
+          }
+        }
+      }
+    },
+    "Você tem alguma rixa com algum vizinho ou com algum colega de trabalho?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you have any feuds with any neighbors or co-workers?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Tiene alguna pelea con algún vecino o compañero de trabajo?"
+          }
+        }
+      }
+    },
     "Você tem mais de 65 anos e ainda trabalha?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -2001,6 +4526,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Tienes más de 65 años y sigues trabajando?"
+          }
+        }
+      }
+    },
+    "Você teria capacidade de correr ou descer escadas em caso de emergência?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Would you be able to run or go down stairs in an emergency?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Podrías correr o bajar escaleras en caso de emergencia?"
+          }
+        }
+      }
+    },
+    "Você toma medicações prescritas pelo médico, conforme indicado?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do you take medications prescribed by the doctor, as directed?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Toma medicamentos recetados por el médico según las indicaciones?"
+          }
+        }
+      }
+    },
+    "Zâmbia 🇿🇲" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zambia 🇿🇲"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zambia 🇿🇲"
           }
         }
       }

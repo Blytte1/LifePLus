@@ -20,9 +20,7 @@ struct LifePlusApp: App {
                     .environmentObject(contentViewModel)
                     .navigationDestination(for: Screen.self){
                         screen in switch screen{
-                        case .loading:
-                            Loading()
-                            
+                       
                         case .intro:
                             IntroView()
                                 .environmentObject(contentViewModel)
@@ -40,7 +38,13 @@ struct LifePlusApp: App {
                                 .environmentObject(contentViewModel)
                             
                         case .name(let user):
-                            NameView(user: user)
+                            NameView(user:user)
+                                .environmentObject(contentViewModel)
+                        case .business:
+                            BusinessView()
+                                .environmentObject(contentViewModel)
+                        case .setup:
+                            SetUpView()
                                 .environmentObject(contentViewModel)
                             
                         }
