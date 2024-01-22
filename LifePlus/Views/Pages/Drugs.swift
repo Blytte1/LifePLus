@@ -38,13 +38,14 @@ struct DrugsView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 
 //MARK: - DRUGS
 enum Drugs:Double, CaseIterable{
-    case yes = -2.5
+    case yes = -3
     case no = 0.0
 }
 extension Drugs:CustomStringConvertible, Identifiable{

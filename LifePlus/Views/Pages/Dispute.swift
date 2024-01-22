@@ -38,13 +38,14 @@ struct DisputeView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 
 //MARK: - DISPUTE
 enum Dispute:Double, CaseIterable{
-    case yes = -1.5
+    case yes = -2
     case no = 0.0
 }
 extension Dispute:CustomStringConvertible, Identifiable{

@@ -14,41 +14,35 @@ struct ReportView: View {
     @State var user:User
     var body: some View {
         
-        VStack {
+        ScrollView {
             ReportHeaderView(user: $reportViewModel.user)
-                
-                //.background(Color("textColor"))
-            Text("Respostas e valores:")
-                .font(.title2)
-                .onAppear(){
-                    reportViewModel.user = user
-                }
-            ScrollView {
-                AnswerView( user: $reportViewModel.user)
+                .padding(.vertical,100)
+            Button("Relatório completo"){
+                contentViewModel.path.append(Screen.answer(user))
             }
+            .buttonStyle(.borderedProminent)
             .toolbar{
+                
+                
                 Button{
                     contentViewModel.path = [Screen.intro]
                     contentViewModel.startOver()
                     
                 }label:{
-                    Image(systemName: "house.fill")
+                    Image(systemName: "arrow.counterclockwise.circle")
                 }
-                
-                Spacer()
                 Button{
                     contentViewModel.path.append(Screen.business)
                 }label:{
                     Image(systemName: "dollarsign.circle")
                 }
-                Spacer()
+                
                 Button{
                     contentViewModel.path.append(Screen.setup)
                 }label:{
-                    Image(systemName: "gearshape.fill")
+                    Image(systemName: "character.book.closed")
                 }
             }
-            
         }
         .background{
             Image("Wallpaper")
@@ -57,6 +51,9 @@ struct ReportView: View {
                 .opacity(0.05)
                 .ignoresSafeArea()
                 .background(Color("background"))
+        }
+        .onAppear(){
+            reportViewModel.user = user
         }
         .environment(\.locale, .init(identifier: contentViewModel.user.language))
         .navigationBarBackButtonHidden(true)

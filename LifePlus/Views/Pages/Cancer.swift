@@ -38,14 +38,15 @@ struct CancerView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 
 //MARK: - CANCER
 enum Cancer:Double, CaseIterable{
     case yes = -3
-    case no = 0
+    case no = 2
 }
 extension Cancer:CustomStringConvertible, Identifiable{
     var id: Self{self}

@@ -9,7 +9,7 @@ import SwiftUI
 //import GoogleMobileAds
 
 
-struct ContentView: View {
+struct QuestionsView: View {
     @EnvironmentObject private var contentViewModel : ContentViewModel
     @State private(set) var user: User
     private let dotAppearance = UIPageControl.appearance()
@@ -54,6 +54,28 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 .background(Color("background"))
         }
+        .toolbar{
+            
+            
+            Button{
+                contentViewModel.path = [Screen.intro]
+                contentViewModel.startOver()
+                
+            }label:{
+                Image(systemName: "arrow.counterclockwise.circle")
+            }
+            Button{
+                contentViewModel.path.append(Screen.business)
+            }label:{
+                Image(systemName: "dollarsign.circle")
+            }
+            
+            Button{
+                contentViewModel.path.append(Screen.setup)
+            }label:{
+                Image(systemName: "character.book.closed")
+            }
+        }
         .onAppear(){
             
             dotAppearance.currentPageIndicatorTintColor = .clear
@@ -66,7 +88,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView( user: DummyData.user)
+            QuestionsView( user: DummyData.user)
                 .environmentObject(ContentViewModel())
         }
     }

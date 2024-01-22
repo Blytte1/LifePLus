@@ -20,7 +20,7 @@ struct Question: Identifiable, Equatable, Hashable{
 
 enum Categories:String, Hashable{
     case demografic
-    case hereditary
+    case biologic
     case habit
 }
 extension Categories:CustomStringConvertible, Identifiable{
@@ -29,8 +29,8 @@ extension Categories:CustomStringConvertible, Identifiable{
         switch self{
         case .demografic:
             return  "Fatores demográficos"
-        case .hereditary:
-            return  "Fatores hereditários"
+        case .biologic:
+            return  "Fatores biológicos"
         case .habit:
             return  "Fatores hábituais"
         }

@@ -38,12 +38,13 @@ struct PubView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 //MARK: - PUB
 enum Pub:Double, CaseIterable{
-    case yes = -0.5
+    case yes = -1
     case no = 0.0
 }
 extension Pub:CustomStringConvertible, Identifiable{

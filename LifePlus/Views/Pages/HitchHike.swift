@@ -38,12 +38,13 @@ struct HitchHikeView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 //MARK: - HITCHHIKE
 enum HitchHike:Double, CaseIterable{
-    case yes = -1.75
+    case yes = -2
     case no = 0.0
 }
 extension HitchHike:CustomStringConvertible, Identifiable{

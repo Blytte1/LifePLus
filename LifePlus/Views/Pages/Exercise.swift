@@ -27,7 +27,7 @@ struct ExerciseView: View {
                 answer = item.rawValue
                 description = item.description
                 contentViewModel.updateAnswer(question: question)
-                contentViewModel.path = [Screen.transition(contentViewModel.user)]
+                contentViewModel.incrementPage()
             }
         label: {
             Text(LocalizedStringKey(item.description))
@@ -38,15 +38,15 @@ struct ExerciseView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-            .frame(width:320, height:100)
+            .frame(width:350, height:100)
             .padding(.top, 20)
     }
 }
 
 //MARK: - EXERCISE
 enum Exercise:Double, CaseIterable{
-    case five = 4
-    case three = 2
+    case five = 5
+    case three = 3
     case zero = 0
 }
 extension Exercise:CustomStringConvertible, Identifiable{

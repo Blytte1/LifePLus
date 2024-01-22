@@ -89,6 +89,6 @@ struct LifeScoreView: View {
 }
 
 #Preview {
-    ContentView(user: DummyData.user)
+    QuestionsView(user: DummyData.user)
         .environmentObject(ContentViewModel())
 }

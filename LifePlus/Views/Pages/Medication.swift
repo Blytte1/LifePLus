@@ -39,13 +39,14 @@ struct MedicationView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 
 //MARK: - MEDICATION
 enum Medication:Double, CaseIterable{
-    case yes = -1
+    case yes = -2
     case no = 1.0
 }
 extension Medication:CustomStringConvertible, Identifiable{

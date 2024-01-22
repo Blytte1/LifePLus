@@ -27,7 +27,7 @@ var body: some View{
                         VStack (spacing:0){
                             Text("Viva +")
                                 .font(.system(size: 20))
-                            Text( "\(user.finalLifeExpectancy,format: .number.locale(.current))"
+                            Text( "\(user.lifeExpectancy.totalLifeExpectancy,format: .number.locale(.current))"
                             )
                                 .font(.system(size: 30))
                             Text("anos")
@@ -71,7 +71,7 @@ var body: some View{
                     }
                         HStack {
                             Text("Expectativa de vida:")
-                            Text(user.lifeExpectancy.initialLifeExpectancy + user.lifeExpectancy.totalLifeExpectancy,format: .number.locale(.current))
+                            Text(user.age + user.lifeExpectancy.totalLifeExpectancy,format: .number.locale(.current))
                             Text("anos")
                         }
                     HStack {

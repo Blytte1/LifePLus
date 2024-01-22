@@ -38,13 +38,13 @@ struct WarView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100)
-        .padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 //MARK: - WAR
 enum War:Double, CaseIterable{
-    case yes = -10
+    case yes = -8
     case no = 0
 }
 extension War:CustomStringConvertible, Identifiable{

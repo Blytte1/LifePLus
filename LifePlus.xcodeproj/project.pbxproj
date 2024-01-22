@@ -72,6 +72,7 @@
 		68577E622B29411F009E5360 /* Dispute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68577E612B29411F009E5360 /* Dispute.swift */; };
 		68577E642B294161009E5360 /* Flood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68577E632B294161009E5360 /* Flood.swift */; };
 		68577E662B294189009E5360 /* War.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68577E652B294189009E5360 /* War.swift */; };
+		6867A7582B56F51B0025FBD6 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 6867A7572B56F51B0025FBD6 /* GoogleMobileAds */; };
 		6868B3522AE2DAFD00194FEF /* CreditsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6868B3512AE2DAFD00194FEF /* CreditsViewModel.swift */; };
 		6868B3562AE2E1B400194FEF /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6868B3552AE2E1B400194FEF /* NavigationModel.swift */; };
 		686A6CBB2B0FD896005D7472 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 686A6CBA2B0FD896005D7472 /* Localizable.xcstrings */; };
@@ -80,11 +81,9 @@
 		68876F8B2ACCDA2500647B1B /* ReportHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68876F8A2ACCDA2500647B1B /* ReportHeaderView.swift */; };
 		68876F8D2ACCDCA000647B1B /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68876F8C2ACCDCA000647B1B /* TransitionView.swift */; };
 		688827A22ADEDE13006376AB /* AnswerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688827A12ADEDE13006376AB /* AnswerViewModel.swift */; };
-		689180952B03D28F00BE5109 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 689180942B03D28F00BE5109 /* GoogleMobileAds */; };
-		68967C132AA24A51004723FF /* ReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C122AA24A51004723FF /* ReferenceView.swift */; };
 		68967C172AA24AF1004723FF /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C162AA24AF1004723FF /* BusinessView.swift */; };
 		68BB131B2A38DD0900431AE1 /* LifePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */; };
-		68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131C2A38DD0900431AE1 /* ContentView.swift */; };
+		68BB131D2A38DD0900431AE1 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131C2A38DD0900431AE1 /* QuestionsView.swift */; };
 		68BB131F2A38DD0B00431AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB131E2A38DD0B00431AE1 /* Assets.xcassets */; };
 		68BB13232A38DD0B00431AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB13222A38DD0B00431AE1 /* Preview Assets.xcassets */; };
 		68BB13462A38E51A00431AE1 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB13452A38E51A00431AE1 /* IntroView.swift */; };
@@ -192,11 +191,10 @@
 		68876F8A2ACCDA2500647B1B /* ReportHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportHeaderView.swift; sourceTree = "<group>"; };
 		68876F8C2ACCDCA000647B1B /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		688827A12ADEDE13006376AB /* AnswerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewModel.swift; sourceTree = "<group>"; };
-		68967C122AA24A51004723FF /* ReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceView.swift; sourceTree = "<group>"; };
 		68967C162AA24AF1004723FF /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
 		68BB13172A38DD0900431AE1 /* LifePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePlusApp.swift; sourceTree = "<group>"; };
-		68BB131C2A38DD0900431AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68BB131C2A38DD0900431AE1 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
 		68BB131E2A38DD0B00431AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BB13222A38DD0B00431AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68BB13282A38DD0B00431AE1 /* LifePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689180952B03D28F00BE5109 /* GoogleMobileAds in Frameworks */,
+				6867A7582B56F51B0025FBD6 /* GoogleMobileAds in Frameworks */,
 				707D157BF7C306C2A8BE3E20 /* Pods_LifePlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,15 +274,12 @@
 			children = (
 				68BB13452A38E51A00431AE1 /* IntroView.swift */,
 				68733B072A8E8F31004F1EE7 /* NameView.swift */,
-				68BB131C2A38DD0900431AE1 /* ContentView.swift */,
-				68BDC55F2A4250BE00A85E91 /* ReportView.swift */,
+				68BB131C2A38DD0900431AE1 /* QuestionsView.swift */,
 				6854C98D2AA23840002795F9 /* AnswerView.swift */,
+				68BDC55F2A4250BE00A85E91 /* ReportView.swift */,
 				68967C162AA24AF1004723FF /* BusinessView.swift */,
-				68967C122AA24A51004723FF /* ReferenceView.swift */,
 				68876F8C2ACCDCA000647B1B /* TransitionView.swift */,
 				6832B5DE2B1A68200027A57B /* SetUpView.swift */,
-				68BB13492A38E57000431AE1 /* Page.swift */,
-				685DF9502B0E966500F22AD8 /* Pages */,
 				685DF9512B0E98F300F22AD8 /* Composed views */,
 				685DF94D2B0E8C8D00F22AD8 /* ViewModifiers */,
 			);
@@ -390,6 +385,8 @@
 		685DF9512B0E98F300F22AD8 /* Composed views */ = {
 			isa = PBXGroup;
 			children = (
+				68BB13492A38E57000431AE1 /* Page.swift */,
+				685DF9502B0E966500F22AD8 /* Pages */,
 				68876F8A2ACCDA2500647B1B /* ReportHeaderView.swift */,
 				68054C9C2B0BF9070087AB10 /* LifeScoreView.swift */,
 			);
@@ -424,11 +421,11 @@
 		68BB13192A38DD0900431AE1 /* LifePlus */ = {
 			isa = PBXGroup;
 			children = (
-				68577E1D2B2909F8009E5360 /* AdView */,
 				6851BCD82AF9D5E3008EF99F /* Info.plist */,
 				685DF94F2B0E8D6E00F22AD8 /* Models */,
-				685DF94E2B0E8CFA00F22AD8 /* ViewModels */,
 				685DF94C2B0E8BE500F22AD8 /* Views */,
+				685DF94E2B0E8CFA00F22AD8 /* ViewModels */,
+				68577E1D2B2909F8009E5360 /* AdView */,
 				68BB13212A38DD0B00431AE1 /* Preview Content */,
 			);
 			path = LifePlus;
@@ -461,7 +458,7 @@
 			);
 			name = LifePlus;
 			packageProductDependencies = (
-				689180942B03D28F00BE5109 /* GoogleMobileAds */,
+				6867A7572B56F51B0025FBD6 /* GoogleMobileAds */,
 			);
 			productName = LifePlus;
 			productReference = 68BB13172A38DD0900431AE1 /* LifePlus.app */;
@@ -514,7 +511,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					68BB13162A38DD0900431AE1 = {
 						CreatedOnToolsVersion = 14.3;
@@ -537,6 +534,7 @@
 				en,
 				"pt-BR",
 				es,
+				Base,
 			);
 			mainGroup = 68BB130E2A38DD0900431AE1;
 			packageReferences = (
@@ -702,7 +700,6 @@
 				68967C172AA24AF1004723FF /* BusinessView.swift in Sources */,
 				68577E5E2B29408B009E5360 /* HitchHike.swift in Sources */,
 				6853360F2ACB3B43006935E1 /* Cancer.swift in Sources */,
-				68967C132AA24A51004723FF /* ReferenceView.swift in Sources */,
 				68577E3C2B292D4A009E5360 /* HomePerson.swift in Sources */,
 				68577E402B292DD4009E5360 /* Texting.swift in Sources */,
 				68577E542B293C84009E5360 /* FireArm.swift in Sources */,
@@ -729,7 +726,7 @@
 				68577E482B293A39009E5360 /* Cheer.swift in Sources */,
 				685336212ACB3D78006935E1 /* Personality.swift in Sources */,
 				6853360B2ACB3AC3006935E1 /* Longevity.swift in Sources */,
-				68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */,
+				68BB131D2A38DD0900431AE1 /* QuestionsView.swift in Sources */,
 				68577E662B294189009E5360 /* War.swift in Sources */,
 				68577E422B292E1F009E5360 /* Walker.swift in Sources */,
 				68733B082A8E8F31004F1EE7 /* NameView.swift in Sources */,
@@ -808,6 +805,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -872,6 +870,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -955,7 +954,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -972,7 +970,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1005,7 +1003,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -1022,7 +1019,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1177,7 +1174,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		689180942B03D28F00BE5109 /* GoogleMobileAds */ = {
+		6867A7572B56F51B0025FBD6 /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 689180932B03D28F00BE5109 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
 			productName = GoogleMobileAds;

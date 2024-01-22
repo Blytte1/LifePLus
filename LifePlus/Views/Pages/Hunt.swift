@@ -39,12 +39,13 @@ struct HuntView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 //MARK: - HUNT
 enum Hunt:Double, CaseIterable{
-    case yes = 1.5
+    case yes = 2
     case no = 0
 }
 extension Hunt:CustomStringConvertible, Identifiable{

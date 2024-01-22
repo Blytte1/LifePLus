@@ -23,4 +23,5 @@ enum Screen:Hashable{
     case transition(User)
     case business
     case setup
+    case answer(User)
 }

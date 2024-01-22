@@ -27,8 +27,8 @@ struct OverWeightView: View {
             in Button(){
                 answer = item.rawValue
                 description = item.description
-                contentViewModel.incrementPage()
                 contentViewModel.updateAnswer(question: question)
+                contentViewModel.path = [Screen.transition(contentViewModel.user)]
             }
         label: {
             Text(LocalizedStringKey(item.description))
@@ -39,7 +39,8 @@ struct OverWeightView: View {
         .padding(.horizontal)
         Spacer()
         AdBannerView(adUnitID: question.recommendationLink)
-        .frame(width:320, height:100).padding(.top, 20)
+            .frame(width:350, height:100)
+            .padding(.top, 20)
     }
 }
 

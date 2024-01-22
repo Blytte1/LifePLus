@@ -1,6 +1,22 @@
 {
   "sourceLanguage" : "pt-BR",
   "strings" : {
+    "" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
     "\"Digita mensagens no celular enquanto dirige?\"" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -291,6 +307,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "año"
+          }
+        }
+      }
+    },
+    "Ano" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Year"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ano"
           }
         }
       }
@@ -1151,28 +1183,6 @@
         }
       }
     },
-    "default" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "dafault"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "default"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "default"
-          }
-        }
-      }
-    },
     "Digita mensagens no celular enquanto dirige?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1348,6 +1358,22 @@
         }
       }
     },
+    "Erro, página ausente" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error, the page is missing"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error, página ausente"
+          }
+        }
+      }
+    },
     "Espanha 🇪🇸" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1506,6 +1532,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Extrovertido"
+          }
+        }
+      }
+    },
+    "Fatores biológicos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biological factors"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Factores biológicos"
+          }
+        }
+      }
+    },
+    "Fatores demográficos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demographic factors"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Factores demográficos"
+          }
+        }
+      }
+    },
+    "Fatores habituais" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Habitual factors"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Factores habituales"
           }
         }
       }
@@ -2380,6 +2457,7 @@
       }
     },
     "Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3028,6 +3106,7 @@
       }
     },
     "Referências" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3066,6 +3145,22 @@
         }
       }
     },
+    "Relatório completo" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full report"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informe completo"
+          }
+        }
+      }
+    },
     "Reponda algumas questões para identificar quais fatores impactam positivamente e negativamente sua expectativa de vida e tenha uma vida mais longa e saudável" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3078,13 +3173,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Responda algunas preguntas para identificar qué factores impactan positiva y negativamente su esperanza de vida y vivir una vida más larga y saludable."
+            "value" : "Responda algunas preguntas para identificar qué factores impactan positivamente o negativamente su esperanza de vida y tenga una vida más larga y saludable."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reponda algumas questões para identificar quais fatores impactam positivamente e negativamente sua expectativa de vida e tenha uma vida mais longa e saudável."
+            "value" : "Responda algumas questões para identificar quais fatores impactam positivamente ou negativamente sua expectativa de vida e tenha uma vida mais longa e saudável."
           }
         }
       }
@@ -3101,22 +3196,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respuesta:"
-          }
-        }
-      }
-    },
-    "Respostas e valores:" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Answers and values:"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Respuestas y valores:"
           }
         }
       }
@@ -3206,6 +3285,15 @@
         }
       }
     },
+    "São fatores econômicos, sociais e geográficos que podem influenciar na expectativa de vida." : {
+
+    },
+    "São fatores que levam em consideração a influência de escolhas tomadas ao longo da vida na expectativa de vida." : {
+
+    },
+    "São fatores que não controlamos, mas que influenciam na expectativa de vida." : {
+
+    },
     "São Marino 🇸🇲" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3241,6 +3329,7 @@
       }
     },
     "Saúde Brasil - Principais causas de morte no Brasil" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3867,6 +3956,7 @@
       }
     },
     "The World health statistics report 2023, OMS" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

@@ -45,7 +45,6 @@ struct NameView: View {
                             .fontWeight(.black)
                     }
                 }
-                
                 HStack {
                 Text("Expectativa de vida do país:")
                     Text( nameViewModel.user.lifeExpectancy.initialLifeExpectancy,format:.number)
