@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @EnvironmentObject private var contentViewModel : QuestionViewModel
+    @EnvironmentObject private var contentViewModel : ContentViewModel
     @State private(set) var user: User
     private let dotAppearance = UIPageControl.appearance()
     var body: some View {
@@ -89,7 +89,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             ContentView( user: DummyData.user)
-                .environmentObject(QuestionViewModel())
+                .environmentObject(ContentViewModel())
         }
     }
 }

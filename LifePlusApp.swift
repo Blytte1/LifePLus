@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct LifePlusApp: App {
-    @StateObject var contentViewModel = QuestionViewModel()
+    @StateObject var contentViewModel = ContentViewModel()
     
     var body: some Scene {
         WindowGroup {
@@ -23,8 +23,8 @@ struct LifePlusApp: App {
                     case .intro:
                         IntroView()
                             .environmentObject(contentViewModel)
-                    case .question(let user):
-                        QuestionsView(user: user)
+                    case .content(let user):
+                        ContentView(user: user)
                             .environmentObject(contentViewModel)
                     case .report(let user):
                         ReportView(user: user)

@@ -29,7 +29,7 @@ struct NameView: View {
                 HStack{
                     Text("Qual sua idade?")
                     Picker("Idade", selection: ($nameViewModel.user.age)) {
-                        ForEach(0...100, id: \.self){
+                        ForEach(12...100, id: \.self){
                             Text("\($0)")
                                 .tag(Double($0))
                         }
@@ -52,7 +52,9 @@ struct NameView: View {
                 }
                 Button{
                   
-                    DispatchQueue.main.asyncAfter(deadline: .now()+0.5){  contentViewModel.path.append(Screen.content(nameViewModel.user))
+                    DispatchQueue.main.asyncAfter(deadline: .now()+0.25){
+                        nameViewModel.user.lifeExpectancy.totalLifeExpectancy = user.lifeExpectancy.initialLifeExpectancy - user.age
+                        contentViewModel.path.append(Screen.content(nameViewModel.user))
                         contentViewModel.user = nameViewModel.user
                     }
                     withAnimation(

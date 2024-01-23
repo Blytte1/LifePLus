@@ -14,36 +14,37 @@ struct ReportView: View {
     @State var user:User
     var body: some View {
         
-        ScrollView {
+        VStack {
             ReportHeaderView(user: $reportViewModel.user)
-                .padding(.vertical,100)
+                .padding(.top, 15)
             Button("Relatório completo"){
                 contentViewModel.path.append(Screen.answer(user))
             }
             .buttonStyle(.borderedProminent)
-            .toolbar{
+            .padding(.top, 30)
+            Spacer()
+        }
+        .toolbar{
+            Button{
+                contentViewModel.path = [Screen.intro]
+                contentViewModel.startOver()
                 
-                
-                Button{
-                    contentViewModel.path = [Screen.intro]
-                    contentViewModel.startOver()
-                    
-                }label:{
-                    Image(systemName: "arrow.counterclockwise.circle")
-                }
-                Button{
-                    contentViewModel.path.append(Screen.business)
-                }label:{
-                    Image(systemName: "dollarsign.circle")
-                }
-                
-                Button{
-                    contentViewModel.path.append(Screen.setup)
-                }label:{
-                    Image(systemName: "character.book.closed")
-                }
+            }label:{
+                Image(systemName: "arrow.counterclockwise.circle")
+            }
+            Button{
+                contentViewModel.path.append(Screen.business)
+            }label:{
+                Image(systemName: "dollarsign.circle")
+            }
+            
+            Button{
+                contentViewModel.path.append(Screen.setup)
+            }label:{
+                Image(systemName: "character.book.closed")
             }
         }
+        
         .background{
             Image("Wallpaper")
                 .resizable()
@@ -61,7 +62,7 @@ struct ReportView: View {
 }
 struct ReportView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView{
+        NavigationStack{
             ReportView( user: DummyData.user)
                 .environmentObject(ContentViewModel())
         }

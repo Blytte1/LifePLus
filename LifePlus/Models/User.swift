@@ -12,7 +12,7 @@ struct User:Hashable, Identifiable{
     var lifeExpectancy: LifeExpectancy
     var age: Double
     var finalLifeExpectancy:Double{
-        age + lifeExpectancy.totalLifeExpectancy
+       age + lifeExpectancy.totalLifeExpectancy
     }
     var language: String
 }

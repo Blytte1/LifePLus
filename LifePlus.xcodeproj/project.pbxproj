@@ -83,7 +83,7 @@
 		688827A22ADEDE13006376AB /* AnswerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688827A12ADEDE13006376AB /* AnswerViewModel.swift */; };
 		68967C172AA24AF1004723FF /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68967C162AA24AF1004723FF /* BusinessView.swift */; };
 		68BB131B2A38DD0900431AE1 /* LifePlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */; };
-		68BB131D2A38DD0900431AE1 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131C2A38DD0900431AE1 /* QuestionsView.swift */; };
+		68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB131C2A38DD0900431AE1 /* ContentView.swift */; };
 		68BB131F2A38DD0B00431AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB131E2A38DD0B00431AE1 /* Assets.xcassets */; };
 		68BB13232A38DD0B00431AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB13222A38DD0B00431AE1 /* Preview Assets.xcassets */; };
 		68BB13462A38E51A00431AE1 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB13452A38E51A00431AE1 /* IntroView.swift */; };
@@ -92,7 +92,6 @@
 		68BDC5602A4250BE00A85E91 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BDC55F2A4250BE00A85E91 /* ReportView.swift */; };
 		68C6C79A2A799397003947DD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C7992A799397003947DD /* Question.swift */; };
 		68C6C79C2A7993B0003947DD /* LifeExpectancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C6C79B2A7993B0003947DD /* LifeExpectancy.swift */; };
-		68EC25262A95423500B4139D /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC25252A95423500B4139D /* QuestionViewModel.swift */; };
 		707D157BF7C306C2A8BE3E20 /* Pods_LifePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DBE45953C177123FB37CA9 /* Pods_LifePlus.framework */; };
 /* End PBXBuildFile section */
 
@@ -194,7 +193,7 @@
 		68967C162AA24AF1004723FF /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
 		68BB13172A38DD0900431AE1 /* LifePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePlusApp.swift; sourceTree = "<group>"; };
-		68BB131C2A38DD0900431AE1 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		68BB131C2A38DD0900431AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68BB131E2A38DD0B00431AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BB13222A38DD0B00431AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68BB13282A38DD0B00431AE1 /* LifePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,7 +204,6 @@
 		68BDC55F2A4250BE00A85E91 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		68C6C7992A799397003947DD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		68C6C79B2A7993B0003947DD /* LifeExpectancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeExpectancy.swift; sourceTree = "<group>"; };
-		68EC25252A95423500B4139D /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		AAD9F3ABFB688EFDF59A7435 /* Pods-LifePlus-LifePlusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlus-LifePlusUITests.debug.xcconfig"; path = "Target Support Files/Pods-LifePlus-LifePlusUITests/Pods-LifePlus-LifePlusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACD55EB8359B7FB247D1F7C4 /* Pods-LifePlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlus.debug.xcconfig"; path = "Target Support Files/Pods-LifePlus/Pods-LifePlus.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0F259B2DCCC12501D0C9CB /* Pods-LifePlus-LifePlusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifePlus-LifePlusUITests.release.xcconfig"; path = "Target Support Files/Pods-LifePlus-LifePlusUITests/Pods-LifePlus-LifePlusUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -274,7 +272,7 @@
 			children = (
 				68BB13452A38E51A00431AE1 /* IntroView.swift */,
 				68733B072A8E8F31004F1EE7 /* NameView.swift */,
-				68BB131C2A38DD0900431AE1 /* QuestionsView.swift */,
+				68BB131C2A38DD0900431AE1 /* ContentView.swift */,
 				6854C98D2AA23840002795F9 /* AnswerView.swift */,
 				68BDC55F2A4250BE00A85E91 /* ReportView.swift */,
 				68967C162AA24AF1004723FF /* BusinessView.swift */,
@@ -304,7 +302,6 @@
 				688827A12ADEDE13006376AB /* AnswerViewModel.swift */,
 				6868B3512AE2DAFD00194FEF /* CreditsViewModel.swift */,
 				68441B942AE9A7E2003C2F30 /* PageViewModel.swift */,
-				68EC25252A95423500B4139D /* QuestionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -396,11 +393,11 @@
 		68BB130E2A38DD0900431AE1 = {
 			isa = PBXGroup;
 			children = (
+				68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */,
+				68BB134B2A391E0700431AE1 /* DummyData.swift */,
 				682980382A8C52CC000B2EF4 /* LifePlus.entitlements */,
 				68BB131E2A38DD0B00431AE1 /* Assets.xcassets */,
-				68BB131A2A38DD0900431AE1 /* LifePlusApp.swift */,
 				686A6CBA2B0FD896005D7472 /* Localizable.xcstrings */,
-				68BB134B2A391E0700431AE1 /* DummyData.swift */,
 				68BB13192A38DD0900431AE1 /* LifePlus */,
 				68BB13182A38DD0900431AE1 /* Products */,
 				4B91474503B6D476A48998E2 /* Pods */,
@@ -726,7 +723,7 @@
 				68577E482B293A39009E5360 /* Cheer.swift in Sources */,
 				685336212ACB3D78006935E1 /* Personality.swift in Sources */,
 				6853360B2ACB3AC3006935E1 /* Longevity.swift in Sources */,
-				68BB131D2A38DD0900431AE1 /* QuestionsView.swift in Sources */,
+				68BB131D2A38DD0900431AE1 /* ContentView.swift in Sources */,
 				68577E662B294189009E5360 /* War.swift in Sources */,
 				68577E422B292E1F009E5360 /* Walker.swift in Sources */,
 				68733B082A8E8F31004F1EE7 /* NameView.swift in Sources */,
@@ -738,7 +735,6 @@
 				685335F92ACB3478006935E1 /* IntroViewModel.swift in Sources */,
 				68577E382B29254D009E5360 /* Sports.swift in Sources */,
 				6868B3522AE2DAFD00194FEF /* CreditsViewModel.swift in Sources */,
-				68EC25262A95423500B4139D /* QuestionViewModel.swift in Sources */,
 				6854C98E2AA23840002795F9 /* AnswerView.swift in Sources */,
 				68BB134C2A391E0700431AE1 /* DummyData.swift in Sources */,
 				68577E4A2B293A73009E5360 /* Danger.swift in Sources */,

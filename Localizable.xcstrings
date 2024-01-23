@@ -17,6 +17,22 @@
         }
       }
     },
+    " %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
     "\"Digita mensagens no celular enquanto dirige?\"" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -84,6 +100,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "+"
+          }
+        }
+      }
+    },
+    "+ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+ %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+ %@"
           }
         }
       }
@@ -524,6 +556,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Atenção: esse app não tem fins medicinais. Para maiores informações o médico deverá ser consultado."
+          }
+        }
+      }
+    },
+    "Atenção: Sua expectativa de vida é negativa, procure ajuda profissional e realizes mudanças em seu estilo de vida o quanto antes." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attention: Your life expectancy is negative, seek professional help and make changes in your lifestyle as soon as possible."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atención: Su esperanza de vida es negativa, busque ayuda profesional y realice cambios en su estilo de vida lo antes posible."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atenção: Sua expectativa de vida é negativa, procure ajuda profissional e realize mudanças em seu estilo de vida o quanto antes."
           }
         }
       }
@@ -2456,29 +2510,6 @@
         }
       }
     },
-    "Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nemoto, Shino, Finkel, Toren (2004) Ageing and the mystery at Arles. Nature, 429 (6988). 149-152"
-          }
-        }
-      }
-    },
     "Nepal 🇳🇵" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3105,29 +3136,6 @@
         }
       }
     },
-    "Referências" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "References"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "\nReferencias"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Referências"
-          }
-        }
-      }
-    },
     "Reino Unido 🇬🇧" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -3286,13 +3294,52 @@
       }
     },
     "São fatores econômicos, sociais e geográficos que podem influenciar na expectativa de vida." : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "They are economic, social and geographical factors that can influence life expectancy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son factores económicos, sociales y geográficos que pueden influir en la esperanza de vida."
+          }
+        }
+      }
     },
     "São fatores que levam em consideração a influência de escolhas tomadas ao longo da vida na expectativa de vida." : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These are factors that take into account the influence of choices made throughout life on life expectancy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son factores que tienen en cuenta la influencia de las decisiones tomadas a lo largo de la vida en la esperanza de vida."
+          }
+        }
+      }
     },
     "São fatores que não controlamos, mas que influenciam na expectativa de vida." : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These are factors that we do not control, but that influence life expectancy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son factores que no controlamos, pero que influyen en la esperanza de vida."
+          }
+        }
+      }
     },
     "São Marino 🇸🇲" : {
       "extractionState" : "manual",
@@ -3324,29 +3371,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Santo Tomé y Príncipe 🇸🇹"
-          }
-        }
-      }
-    },
-    "Saúde Brasil - Principais causas de morte no Brasil" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saúde Brasil - Principais causas de morte no Brasil"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saúde Brasil - Principais causas de morte no Brasil"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Saúde Brasil - Principais causas de morte no Brasil"
           }
         }
       }
@@ -3955,29 +3979,6 @@
         }
       }
     },
-    "The World health statistics report 2023, OMS" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The World health statistics report 2023, OMS"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The World health statistics report 2023, OMS"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The World health statistics report 2023, OMS"
-          }
-        }
-      }
-    },
     "Timor-Leste 🇹🇱" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -4166,28 +4167,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vive"
-          }
-        }
-      }
-    },
-    "Viva +" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Live +"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Vivir +"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Viva +"
           }
         }
       }
