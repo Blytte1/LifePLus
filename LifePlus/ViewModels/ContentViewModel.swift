@@ -6,7 +6,7 @@
 //
 
 import Foundation
-class QuestionViewModel:ObservableObject{
+class ContentViewModel:ObservableObject{
     @Published var ageUpdated = false
     @Published var pageIndex = 0
     @Published var answer: Double = 0.0
