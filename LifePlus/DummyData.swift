@@ -17,7 +17,7 @@ struct DummyData{
     static var lifeExpectancy = LifeExpectancy(
         questions: questions,
         naturality: "Brasil 🇧🇷",
-        totalLifeExpectancy:0
+        totalLifeExpectancy: 30
     )
     //MARK: - QUESTIONS
     
