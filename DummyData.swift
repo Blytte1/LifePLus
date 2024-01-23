@@ -13,11 +13,12 @@ struct DummyData{
         lifeExpectancy: DummyData.lifeExpectancy,
         age:35,
         language: "pt-BR"
-    )
+           
+)
     static var lifeExpectancy = LifeExpectancy(
         questions: questions,
         naturality: "Brasil 🇧🇷",
-        totalLifeExpectancy: 30
+        totalLifeExpectancy: 0
     )
     //MARK: - QUESTIONS
     

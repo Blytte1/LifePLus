@@ -9,8 +9,8 @@ import SwiftUI
 //import GoogleMobileAds
 
 
-struct QuestionsView: View {
-    @EnvironmentObject private var contentViewModel : ContentViewModel
+struct ContentView: View {
+    @EnvironmentObject private var contentViewModel : QuestionViewModel
     @State private(set) var user: User
     private let dotAppearance = UIPageControl.appearance()
     var body: some View {
@@ -88,8 +88,8 @@ struct QuestionsView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            QuestionsView( user: DummyData.user)
-                .environmentObject(ContentViewModel())
+            ContentView( user: DummyData.user)
+                .environmentObject(QuestionViewModel())
         }
     }
 }
