@@ -40,10 +40,11 @@ struct SexView: View {
         }
         .padding(.horizontal)
         Spacer()
-        AdBannerView(adUnitID: question.recommendationLink)
-            .frame(width:350, height:100)
-            .padding(.top, 20)
-            
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            AdBannerView(adUnitID: question.recommendationLink)
+                .frame(width:350, height:100)
+                .padding(.top, 20)
+                   }
     }
 }
 
