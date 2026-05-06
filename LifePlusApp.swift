@@ -6,47 +6,50 @@
 //
 
 import SwiftUI
+import SwiftUI
 
 @main
 struct LifePlusApp: App {
-    @StateObject var contentViewModel = ContentViewModel()
-    
+
+    // Usamos @State para manter a instância viva durante o ciclo de vida do App
+    @State private var dm = DataManager(
+        user: DummyData.user,
+        language: "pt-BR",
+        router: NavigationRouter()
+    )
+
     var body: some Scene {
         WindowGroup {
-            
-            NavigationStack(path: $contentViewModel.path) {
-                
-                IntroView()
-                .environmentObject(contentViewModel)
-                .navigationDestination(for: Screen.self){
-                    screen in switch screen{
-                    case .intro:
-                        IntroView()
-                            .environmentObject(contentViewModel)
-                    case .content(let user):
-                        ContentView(user: user)
-                            .environmentObject(contentViewModel)
-                    case .report(let user):
-                        ReportView(user: user)
-                            .environmentObject(contentViewModel)
-                    case .transition(let user):
-                        TransitionView(user:user)
-                            .environmentObject(contentViewModel)
-                    case .name(let user):
-                        NameView(user:user)
-                            .environmentObject(contentViewModel)
-                    case .business:
-                        BusinessView()
-                            .environmentObject(contentViewModel)
-                    case .setup:
-                        SetUpView()
-                            .environmentObject(contentViewModel)
-                    case .answer(let user):
-                        AnswerView(user:user)
-                            .environmentObject(contentViewModel)
+            // Criamos um Bindable local para acessar a propriedade 'path' do router
+            @Bindable var router = dm.router
+
+            NavigationStack(path: $router.path) {
+                // View inicial
+                IntroView(vm: IntroViewModel(dm: dm))
+                    .navigationDestination(for: Screen.self) { screen in
+                        // O switch deve extrair o valor associado (vm) para passá-lo à View
+                        switch screen {
+                        case .intro(let vm):
+                            IntroView(vm: vm)
+
+                        case .name(let vm):
+                            NameView(vm: vm)
+
+                        case .content(let vm):
+                            ContentView(vm: vm)
+
+                        case .report(let vm):
+                            ReportView(vm:vm)
+
+                        case .setup(let vm):
+                            SetUpView(vm: vm)
+
+                        case .answer(let vm):
+                            AnswerView(vm: vm)
+                        }
                     }
-                }
             }
+            .environment(dm)
         }
     }
 }

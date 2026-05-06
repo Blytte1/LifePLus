@@ -7,15 +7,23 @@
 import SwiftUI
 import Foundation
 
-struct Question: Identifiable, Equatable, Hashable{
-    let id = UUID()
-    var question: String
-    var answerValue: Double
-    var answerDescription: String
+
+struct AnswerOption: Identifiable, Hashable {
+    var id = UUID().uuidString
+    let description: String
+    let value: Double
+}
+
+struct Question: Identifiable, Equatable, Hashable {
+
+    var id: String
     var questionImageUrl: String
     var tag: Int
     var categories: Categories
-    var recommendationLink:String 
+    var recommendationLink: String
+    var justification: String
+    var options: [AnswerOption]
+    var answer: AnswerOption?
 }
 
 enum Categories:String, Hashable{
@@ -23,6 +31,7 @@ enum Categories:String, Hashable{
     case biologic
     case habit
 }
+
 extension Categories:CustomStringConvertible, Identifiable{
     var id: Self{self}
     var description: String{

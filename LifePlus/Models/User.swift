@@ -8,11 +8,15 @@
 import Foundation
 
 struct User:Hashable, Identifiable{
-    var id = UUID()
-    var lifeExpectancy: LifeExpectancy
+    var id = UUID().uuidString
+    var name: String
     var age: Double
+    var sex: Sex
+    var lifeExpectancy: LifeExpectancy
     var finalLifeExpectancy:Double{
        age + lifeExpectancy.totalLifeExpectancy
     }
-    var language: String
+}
+enum Sex:String, Codable, CaseIterable{
+    case masculino, feminino
 }
