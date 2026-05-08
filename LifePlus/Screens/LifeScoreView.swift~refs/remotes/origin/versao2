@@ -1,0 +1,55 @@
+//
+//  LifeScoreView.swift
+//  LifePlus
+//
+//  Created by Roberto Mascarenhas on 20/11/23.
+//
+
+import SwiftUI
+
+struct LifeScoreView: View {
+    @Environment(ContentViewModel.self) var vm
+    @Binding  var user:User
+    var body: some View {
+        
+        ZStack(alignment:.trailing){
+           
+                    Image("logo")
+                        .resizable()
+                        .scaledToFit()
+                    .rotation3DEffect(
+                        Angle(degrees: vm.rotation),
+                        axis: (x:0,y:1,z:0))
+                }
+                .rotation3DEffect(
+                    .degrees(vm.rotation),
+                    axis: (x:0,y:1,z:0)
+                )
+                .animation(
+                    .easeIn(duration: 0.5),
+                    value: vm.rotation
+                )
+              
+            
+            .rotation3DEffect(
+                .degrees(-360),
+                axis: (1, 0,0)
+            )
+            .foregroundColor(.accentColor)
+        
+        .animation(
+            .easeInOut(duration: 1),
+            value: vm.user.finalLifeExpectancy
+        )
+        .frame(maxWidth:.infinity, maxHeight:100)
+        .cornerRadius(10)
+        .padding(.horizontal)
+        .shadow(radius: 20)
+        .environment(\.locale, .init(identifier: vm.user.language))
+    }
+}
+
+#Preview {
+    ContentView()
+        .environment(ContentViewModel())
+}
